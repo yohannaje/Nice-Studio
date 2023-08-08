@@ -1,0 +1,942 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: #202020;
+    color: #FEFBF3;
+    overflow-x: hidden;
+    transition: .3s ease all;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #202020;
+    background: #DE5D37;
+}
+
+::selection {
+    color: #202020;
+    background: #DE5D37;
+}
+
+a {
+    color: #FEFBF3;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.img__container img{
+    filter: grayscale(100%); }
+
+/* ======================= LINK FLECHA ACTIVO ======================= */
+/* 
+<button class="btn__active">
+    <a href="#" class="fonH4">
+        <svg width="25" height="25" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3825 3.88326H0V0H20.2658V20.2658H16.3825V3.88326Z" fill=""/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.000202745 16.3926C7.15253 16.3926 12.951 10.5941 12.951 3.44141L16.8242 3.44141C16.8242 12.7333 9.29167 20.2658 -0.000202914 20.2658L-0.000202745 16.3926Z" fill=""/>
+        </svg>
+    Let's talk
+    </a>
+</button>
+*/
+.btn__active{
+    line-height: 2rem;
+    height: 3.5rem;
+    border: 3px solid #FEFBF3;
+    padding: 0 1rem;
+    margin: auto auto auto 0;
+    background: none;
+    border-radius: 60px;
+    transition: .3s ease all;
+}
+.btn__active a svg{
+    margin-right: 0.5rem;
+}
+/* ======================= LINK FLECHA ======================= */
+/* 
+<a class="arrow__link" href="#">
+        <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="29.5" cy="29.5" r="28" stroke="#DE5D37" stroke-width="3"/>
+            <mask id="path-2-inside-1_719_700" fill="white">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z"/>
+            </mask>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3825 23.8833H19V20H39.2658V40.2658H35.3825V23.8833Z" fill="#DE5D37"/>
+            <path d="M19 23.8833H8.36877V34.5145H19V23.8833ZM35.3825 23.8833H46.0137V13.252H35.3825V23.8833ZM19 20V9.36877H8.36877V20H19ZM39.2658 20H49.897V9.36877H39.2658V20ZM39.2658 40.2658V50.897H49.897V40.2658H39.2658ZM35.3825 40.2658H24.7513V50.897H35.3825V40.2658ZM19 34.5145H35.3825V13.252H19V34.5145ZM8.36877 20V23.8833H29.6312V20H8.36877ZM35.3825 50.897H39.2658V29.6346H35.3825V50.897ZM24.7513 23.8833V40.2658H46.0137V23.8833H24.7513ZM39.2658 9.36877H19V30.6312H39.2658V9.36877ZM49.897 40.2658V20H28.6346V40.2658H49.897Z" fill="#DE5D37" mask="url(#path-2-inside-1_719_700)"/>
+            <mask id="path-4-inside-2_719_700" fill="white">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z"/>
+            </mask>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 36.3926C26.1525 36.3926 31.951 30.5941 31.951 23.4414L35.8242 23.4414C35.8242 32.7333 28.2917 40.2658 18.9998 40.2658L18.9998 36.3926Z" fill="#DE5D37"/>
+            <path d="M31.951 23.4414L31.951 12.8102L21.3197 12.8102L21.3197 23.4414L31.951 23.4414ZM18.9998 36.3926L18.9998 25.7614L8.36857 25.7614L8.36857 36.3926L18.9998 36.3926ZM35.8242 23.4414L46.4554 23.4414L46.4554 12.8102L35.8242 12.8102L35.8242 23.4414ZM18.9998 40.2658L8.36857 40.2658L8.36857 50.8971L18.9998 50.8971L18.9998 40.2658ZM21.3197 23.4414C21.3197 24.7227 20.2811 25.7614 18.9998 25.7614L18.9998 47.0238C32.024 47.0238 42.5822 36.4656 42.5822 23.4414L21.3197 23.4414ZM35.8242 12.8102L31.951 12.8102L31.951 34.0726L35.8242 34.0726L35.8242 12.8102ZM18.9998 50.8971C34.1631 50.8971 46.4554 38.6047 46.4554 23.4414L25.193 23.4414C25.193 26.8618 22.4202 29.6346 18.9998 29.6346L18.9998 50.8971ZM8.36857 36.3926L8.36857 40.2658L29.631 40.2658L29.631 36.3926L8.36857 36.3926Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
+        </svg>
+    </a> 
+*/
+
+/* ======================= FLECHA REDONDA ======================= */
+.arrow__link{
+    width: 60px;
+    height: 60px;
+    padding: 0 0.5rem;
+    transition: .3s ease all; }
+
+.arrow__link:hover{
+    transform: scale(1.15); }
+
+/* ======================= FLECHA REDONDA FOOTER ======================= */    
+.arrowbounce{
+    transition: 4s ease all;
+}
+.arrowbounce:hover { 
+    animation: bounce 3s infinite ease-in-out; }
+    
+    @keyframes bounce {
+        0%{
+        transform: translateY(0);
+        }
+        20% {
+        transform: translateY(-30px);
+        }
+        30%{
+        transform: translateY(0);
+        }
+        50% {
+        transform: translateY(-20px);
+        }
+    }
+
+/* ======================= FONTS ======================= */    
+
+@font-face {
+    font-family: 'Maine Light';
+    src: url('../assets/Maine/Maine-Light.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Regular';
+    src: url('../assets/Maine/Maine-Regular.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Book';
+    src: url('../assets/Maine/Maine-Book.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Book Italic';
+    src: url('../assets/Maine/Maine-BookItalic.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Bold';
+    src: url('../assets/Maine/Maine-Bold.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Bold Italic';
+    src: url('../assets/Maine/Maine-BoldItalic.otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maine Medium Italic';
+    src: url('../assets/Maine/Maine-MediumItalic.otf');
+    font-display: swap;
+}
+
+.fonXl {  /* == Confirmar si va === */
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.25rem;
+    line-height: 6.75rem; }
+
+.fonH1 {
+    font-family: 'Maine Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.5rem;
+    line-height: 7.5rem; }
+
+.fonH2 {  
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.25rem;
+    line-height: 6.5rem; }
+  
+.fonH3 {
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.75rem;
+    line-height: 4.75rem; } 
+
+.fonH4 {
+    font-family: 'Maine Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.5rem; }
+
+.fonH4tit {  /* == Cambie nombre === */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem; }
+
+.fonH5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem; }
+
+.fonH6 { 
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    opacity: 0.5; }
+
+.fonLab {
+    font-family: 'Maine Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem; }
+
+.fonPar {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem; }
+
+.fonTab {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem; }
+
+.fonSmall {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem; }
+
+.fonPgSt { /* == Confirmar si va === */
+    font-family: 'Maine Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.fonLink { /* == Confirmar si va === */
+    font-family: 'Maine Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.fonSubFoot { /* == Confirmar si va === */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.Rg {  
+    font-family: 'Maine Regular'; }
+
+.BkIt {  
+    font-family: 'Maine Book Italic'; }
+
+.Bd {  
+    font-family: 'Maine Bold'; }
+
+.BdIt {  
+    font-family: 'Maine Bold Italic'; }
+
+.MeIt {  
+    font-family: 'Maine Medium Italic'; }
+
+.Un {  
+    text-decoration-line: underline; 
+    text-underline-offset: 8px; 
+    -webkit-text-decoration-line: underline; /* Safari */}
+
+li {
+    list-style-type: none;
+}
+
+.hoverLink{
+    padding: 1rem 4rem;
+    border-radius: 50%;
+    border: 2px solid #DE5D37;
+    margin: 5rem;
+}
+.hoverLink svg{
+    margin: auto;
+    vertical-align: middle;
+}
+.hoverLink span{
+    display: none;
+}
+
+.hoverLink:hover > span{
+    display: block;
+}
+
+/* =========================== COLORES =========================== */
+
+.orange {
+    color: #FEFBF3;
+}
+
+.yellow {
+    color: #FEFBF3;
+}
+
+.pink {
+    color: #FEFBF3;
+}
+
+.blue {
+    color: #FEFBF3;
+}
+
+body.color .orange {
+    color: #DE5D37;
+}
+
+body.color .yellow {
+    color: #FCB95C;
+}
+
+body.color .pink {
+    color: #F3A8BE;
+}
+
+body.color .blue {
+    color: #6273D1;
+}
+
+/* ------------  BUTTONS LINKS ------------------- */
+
+.btn__active:hover {
+    border: 3px solid #DE5D37;  
+    transform: scale(1.1);}
+
+.btn__active a {
+    padding: 4px;
+    transition: .3s ease all;  }
+
+.btn__active svg {
+    fill: #FEFBF3;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    transition: .3s ease all;  }
+
+.btn__active:hover>a {
+    color: #DE5D37; }
+
+.btn__active:hover svg {
+    fill: #DE5D37;  }
+
+/* ------------ A LINKS ------------------- */
+
+.aLink {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #FEFBF3;
+    position: relative;
+    white-space: nowrap;
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.aLink::before,
+.aLink::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.aLink::before {
+    content: '';
+    /* show by default */
+}
+
+.aLink--under::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 2, 1);
+    transition: transform 0.3s;
+}
+
+.aLink--under:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 2, 1);
+}
+
+.active {
+    font-weight: 600;
+}
+
+/* ------------  NAV ------------------------ */
+nav {
+    position: fixed;
+    width: 90%;
+    height: 5rem;
+    top: 0;
+    padding: 0 5% 0 5%;
+    background-color: #202020;
+    display: flex;
+    justify-content: flex-end;
+    transition: .3s ease all;
+    z-index: 20;
+}
+
+.logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 5%;
+}
+
+.logo svg {
+    fill: #FEFBF3;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__links li {
+    margin-left: 2.5rem;
+}
+
+ul li {
+    transition: 0.3s ease all;
+}
+
+.colorSwitch {
+    width: 1.5rem;
+    margin: 1.7rem 0 auto 4rem;
+    border-radius: 0;
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: #FEFBF3;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(1px, 14px);
+    transform: rotate(-45deg) translate(1px, 14px);
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(50deg) translate(5px, -10px);
+    transform: rotate(45deg) translate(5px, -10px);
+}
+
+.open .mobile__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+    top: 3rem;
+    left: 0;
+    padding-top: 15vh;
+    padding-bottom: 70%;
+    height: 60vh;
+    width: 100%;
+}
+
+.open .mobile__menu li {
+    font-size: 2.5rem;
+}
+.mobile__menu li svg{
+    vertical-align: middle;
+}
+.mobile__menu {
+    background-color: #202020;
+    display: none;
+    position: absolute;
+    transition: .3s ease all;
+}
+.open .mobile__menu--mail{
+    position: absolute;
+    top: 90vh;
+    font-size: 1.5rem;
+    transition: .3s ease all;
+}
+.open .mobile__menu--mail:hover{
+    color: #DE5D37;
+}
+
+.mobile__menu li .shape1{
+    stroke: #FEFBF3;
+}
+.mobile__menu li .shape2{
+    fill: #FEFBF3;
+    margin: 1rem;
+}
+.mobile__menu li .shape3{
+    fill: #FEFBF3;
+}
+.mobile__menu li .shapes4{
+    fill: #FEFBF3;
+}
+/* ------------  FOOTER ------------------------------- */
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 11rem;
+    margin-bottom: 11rem; }
+
+.footer__box {
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%; }
+
+.footer__title {
+    width: 720px;  }
+
+.footer__subtitle {
+    width: 650px;
+    margin-top: 3.5rem; 
+    margin-bottom: 7rem;}
+
+    .footer__subtitle .Un{
+        -webkit-text-decoration-line: underline; /* Safari */
+        text-decoration-line: underline; }
+
+.footer__boxlinks {
+    width: 100%;
+    height: 9rem;
+    position: relative; }
+
+.footer__links {
+    min-width: 470px;
+    max-width: 600px;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+.footer__linkstit1 {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+    .footer__linksbox1 {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 3rem;
+        left: 0; }
+
+    .footer__linksbox1a {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 5rem;
+        left: 7.5rem; }
+
+.footer__linkstit2 {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 7.5rem; }
+
+    .footer__linksbox2 {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 3rem;
+        right: 7.5rem; }
+
+    .footer__linksbox2a {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 5rem;
+        right: 0; }
+
+.footer__backToTop {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 4rem;
+    right: 0; }
+
+.footer__backToTop svg {
+    stroke: #FEFBF3;
+    fill: #FEFBF3;  }
+
+.footer__copy {
+    height: auto;
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0rem; }
+
+    .footer__copy h5 {
+        color: #FEFBF3;
+        height: auto;
+        width: auto; }
+
+/* ===================== COLOR MODE ============================ */
+
+body.color {
+    background-color: #FEFBF3;
+    color: #202020;
+}
+
+body.color a {
+    color: #202020;
+}
+body.color .formMsg{
+    color: #202020;
+}
+body.color ::-moz-selection { /* Code for Firefox */
+    color: #FEFBF3;
+    background: #DE5D37;
+}
+
+body.color ::selection {
+    color: #FEFBF3;
+    background: #DE5D37;
+}
+body.color .btn__active{
+    border: 2px solid #202020;
+}
+
+body.color .btn__active:hover {
+    border: 2px solid #DE5D37;
+}
+
+body.color .btn__active:hover svg {
+    fill: #DE5D37;
+}
+
+body.color .btn__active svg{
+    fill: #202020;
+}
+body.color nav {
+    background-color: #FEFBF3;
+}
+
+body.color .logo svg {
+    fill: #202020;
+}
+
+body.color #hamburger-icon div {
+    background-color: #202020;
+}
+
+body.color .nav__burger {
+    stroke: #202020;
+}
+
+body.color .mobile__menu {
+    background-color: #FEFBF3;
+    color: #202020;
+}
+body.color .mobile__menu li .shape1{
+    stroke: #F3A8BE;
+}
+body.color .mobile__menu li .shape2{
+    fill: #6273D1;
+}
+body.color .mobile__menu li .shape3{
+    fill: #FCB95C;
+}
+body.color .mobile__menu li .shapes4{
+    fill: #FCB95C;
+}
+body.color .footer__title4 svg {
+    stroke: #202020;
+}
+
+body.color .footer__subtitle a {
+    color: #DE5D37;
+}
+
+body.color .footer__copy h5 {
+    color: #202020;
+}
+
+body.color .footer__backToTop svg {
+    stroke: #202020;
+    fill:  #202020;
+}
+
+body.color .grab__gallery {
+    background-color: #FEFBF3;
+}
+
+/* ------------  @ MEDIA -------------------------------- */
+
+@media (max-width: 768px) {
+    
+    .arrow__link{
+        width: 45px;
+        height: 45px;
+        padding: 0 0.5rem;
+        transition: .3s ease all; }
+
+    nav .nav__links {
+        display: none;
+    }
+
+    .colorSwitch {
+        margin-right: 2rem;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon:active .mobile__menu {
+        transform: translateY(-100vh);
+    }
+
+    .fonXl {
+        /* -----change-------- okkkkkkkkkkkkkk */
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.75rem;
+        line-height: 4.5rem; }
+
+    .fonH2 {  
+        /* -----change-------- okkkkkkkkkkkkkk */
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.25rem;
+        line-height: 4.5rem; }
+
+    .fonH3 {
+        /* -----change-------- okkkkkkkkkkkkkk */
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem;
+        line-height: 3.5rem; } 
+
+    .fonH4 {
+        /* -----change-------- okkkkkkkkkkkkkk */
+        font-family: 'Maine Light';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.5rem; }
+
+    .fonH4tit {  
+        /* -----change-------- okkkkkkkkkkkkkk */
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.75rem;
+        line-height: 2.25rem; }
+
+
+    /* --------- Navbar ----- */
+    .nav__links {
+        display: none;   }
+
+    .nav__mobile,
+    .nav__burger {
+        display: block;   }
+
+   /* ----------- Footer -----*/
+   .footer {
+    margin-top: 10rem;
+    margin-bottom: 10rem; }
+
+    .footer__box {
+        width: 80%;
+        margin-left: 10%; }
+
+    .footer__title {
+        width: 90%;  }
+
+    .footer__subtitle {
+        width: 90%;
+        max-width: auto; }
+
+    .footer__boxlinks {
+        width: 100%;
+        height: 20.5rem;
+        position: relative; }
+
+    .footer__links {
+        min-width: 470px;
+        max-width: 650px;
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 0; }
+
+        .footer__linkstit1 {
+            width: 6rem;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0; }
+        
+            .footer__linksbox1 {
+                width: 6rem;
+                height: auto;
+                position: absolute;
+                top: 3rem;
+                left: 0; }
+        
+            .footer__linksbox1a {
+                width: 6rem;
+                height: auto;
+                position: absolute;
+                top: 5rem;
+                left: 7.5rem; }
+        
+        .footer__linkstit2 {
+            width: 6rem;
+            height: auto;
+            position: absolute;
+            top: 12rem;
+            left: 0rem; }
+        
+            .footer__linksbox2 {
+                width: 6rem;
+                height: auto;
+                position: absolute;
+                top: 15rem;
+                left: 0rem; }
+        
+            .footer__linksbox2a {
+                width: 6rem;
+                height: auto;
+                position: absolute;
+                top: 17rem;
+                left: 7.5rem; }
+        
+    .footer__backToTop {
+        position: absolute;
+        bottom: 0rem;
+        right: 0; }
+
+    .footer__copy {
+        position: absolute;
+        bottom: -8.5rem;
+        left: 0; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* ----------- Nav -----*/
+    .nav__mobile,
+    .nav__burger {
+        display: none;     }
+
+    /* ----------- Footer -----*/
+    .footer {
+        margin-top: 10rem;
+        margin-bottom: 10rem; }
+    
+    .footer__box {
+        width: 80%;
+        margin-left: 10%; }
+
+    .footer__title {
+        width: 100%;  }
+
+    .footer__subtitle {
+        width: 90%;
+        max-width: 650px; }
+
+    .footer__boxlinks {
+        width: 100%;
+        height: 9rem;
+        position: relative; }
+
+    .footer__links {
+        min-width: 470px;
+        max-width: 650px;
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 0; }
+
+    .footer__backToTop {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0; }
+
+    .footer__copy {
+        position: absolute;
+        bottom: -8.5rem;
+        left: 0; }
+}
+
+@media (min-width: 1024px) {
+    
+    .nav__mobile,
+    .nav__burger {
+        display: none;
+    }
+}

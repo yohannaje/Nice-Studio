@@ -1,0 +1,743 @@
+/* ----------- Hero OKKK----------- */
+.hero{
+  width:100%;
+  height: auto;
+  margin-top: 11rem;
+  margin-bottom: 3.5rem; }
+
+.hero__box {
+  width: 90%;
+  margin-left: 5%; }
+
+.hero__box h1 {
+  width: auto;
+  height: auto;
+  line-height: 9rem; }
+
+  .hero__box h1 .underline{
+    text-decoration: underline 5px; }
+
+.hero__box h4 {
+  width: 550px;
+  height: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem; }
+
+.hero__btn{
+  width: 100%;
+  height: min-content;
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+.shapes {
+  text-align: right; }
+
+  .shapes .shape2, .shape3, .shape4 {
+    fill: #FEFBF3;
+    margin-left: 1.5rem; }
+
+  .shapes .shape1{
+    fill: #FEFBF3;
+    stroke: #FEFBF3; }
+
+/* Forzar cursor */
+header {
+  cursor: default; }
+
+/*----------- Reel ----------- */
+.reel{
+  width: 100%;
+  height: auto; }
+
+.reel__box{
+  height: 80vh;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;  }
+
+.reel__box video{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; }
+
+/* ----------- Holistic OKK----------- */
+.holistic{
+  width: 100%;
+  height: auto;
+  margin: 11rem 0; }
+
+.holistic__box{
+  width: 75%;
+  height: auto;
+  margin-left: 12.5%; }
+
+.holisticsvg{
+  width: 60px;
+  height: 60px;
+  padding-left: 1rem; }
+
+.holisticsvg:hover{
+    transform: scale(1.1);
+    transition: .5s ease all; } 
+
+.holistic__values{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 900px; 
+  width: 60%;
+  margin-top: 3.5rem; }
+  
+.holistic__values p{
+  line-height: 2rem;
+  padding: 0.4rem 1.25rem 0.6rem 1.25rem;
+  margin: 0 1.5rem 1.25rem 0;
+  border-radius: 25px;
+}
+.holistic__values .brdBlue, .brdYellow, .brdPink, .brdOrange {
+  border: 2px solid #FEFBF3; }
+
+/* ----------- Case studies OKKK----------- */
+.caseStudy{
+  width: 100%;
+  height: auto;
+  margin-top: 11rem; }
+
+  .caseStudy h3{
+    margin-left: 12.5%; }
+
+.caseStudy__gallery{
+  width: 100%;
+  height: auto;
+  margin-top: 3.5rem; 
+  margin-bottom: 11rem;}
+
+.items {
+  scrollbar-width: none;
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  user-select: none;
+  height: min-content; }
+
+.items::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */ }
+
+.items.active {
+  cursor: pointer;
+  cursor: -webkit-grabbing;
+  transform: scale(1); }
+
+.item {
+  display: inline-block;
+  margin: 2rem 0.75rem; }
+
+.gallery__card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column; }
+
+.gallery__card .img__container img {
+  width: 48rem;
+  cursor: url("../assets/draghandle.svg"), pointer; }
+
+.gallery__card h5 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.gallery__card svg {
+  margin-right: 0.5rem;
+  fill: #DE5D37; }
+
+/* ----------- A Nice philosophy OKKK----------- */
+
+.philosophy{
+  width: 100%;
+  margin-top: 11rem;
+  margin-bottom: 11rem; }
+
+.philosophy__box{
+  width: 75%;
+  margin-left: 12.5%;
+  height: auto;
+  display: grid; 
+  grid-template-columns: 600px auto;  }
+
+.philosophy__title{
+  height: auto;
+  width: 100%; }
+
+  .philosophy h5{
+    width: 70%;
+    min-width: 550px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem; }
+
+.philosophy__svg{
+  height: auto;
+  width: 100%; 
+  max-width: 500px;
+  justify-self: right;
+  align-self: flex-end;  }
+
+  .philosophy__svg svg{
+    width: 100%;
+    height: auto; }
+
+  .philosophy__svg svg .text{
+    fill: #FEFBF3; }
+
+  .philosophy__svg svg .work, .simple, .true, .respect{
+    stroke: #FEFBF3; }
+
+/* ----------- Slide in text OKKKK----------- */
+
+.container {
+  position: relative;
+  width: 150%;
+  overflow: hidden;
+  left: -4rem;
+  vertical-align: middle;
+}
+
+.scrolling-text {
+  display: inline-block;
+}
+
+.scrolling-text .scrolling-text-content {
+  color: #FEFBF3;
+  font-size: 120px;
+  white-space: nowrap;
+  margin: 1rem 0;
+}
+
+.slide__star{
+  fill: #FEFBF3;
+}
+.slide__asterisk{
+  stroke: #FEFBF3;
+  margin: 0 2rem;
+}
+.slide__venus{
+  fill: #FEFBF3;
+  margin-left: 2rem;
+}
+.slide__arrow{
+  vertical-align: middle;
+  fill: #FEFBF3;
+}
+.slide__flower{
+  fill: #FEFBF3;
+  margin: 0 2rem;
+}
+
+/* ----------- Messy gallery OKKKK----------- */
+
+.messyGallery {
+  width: 100%;
+  height: auto;
+  margin-top: 11rem;
+  margin-bottom: 11rem; }
+
+.messy__gallery--container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "one two four five"
+    "one three . five" ;
+  margin-left: 5%; }
+
+.messy__img--container {
+  width: 120%;
+  transition: .3s ease all; }
+
+.messy__img--container img {  
+  border-radius: 8px;
+  transition: .3s ease all; }
+
+.messy__img--container:hover {
+  transform: scale(1.1);
+  z-index: 5; }
+
+.messy__img--container:hover>img {
+  box-shadow: 0px 0px 20px 5px rgba(26, 26, 26, 0.116); }
+
+/* oceans */
+.img1 {
+  grid-area: one;
+  margin: auto auto auto 0; }
+
+/* girl */
+.img2 {
+  grid-area: two;
+  margin: auto 3rem 0 auto;
+  z-index: 1; }
+
+/* Van Gogh */
+.img3 {
+  grid-area: three;
+  margin: -3rem auto auto 10rem;
+  z-index: 2; }
+
+/* pottery */
+.img4 {
+  grid-area: four;
+  margin: auto auto -8rem 2rem;
+  z-index: 3; }
+
+/* typographic */
+.img5 {
+  grid-area: five;
+  margin: auto auto 4rem -7rem;
+  z-index: 1; }
+
+.messy__gallery--button {
+  text-align: center;
+  width: 100%;
+  margin-top: 3.5rem; }
+
+/* ----------- Quote ----------- */
+
+.quote{
+  width: 100%;
+  height: auto;
+  margin: 11rem 0; }
+
+.index__quote {
+  width: 75%;
+  margin-left: 12.5%;
+  line-height: 7.5rem; }
+
+/* ----------- Instagram gallery ----------- */
+
+.instagram__gallery {
+  margin-top: 11rem;
+  width: 100%; }
+
+.instagram__title{
+  margin-left: 12.5%;
+  width: 75%;
+  height: auto;
+  margin-bottom: 3.5rem; }
+
+  .instagram__gallery h3 {
+      padding-bottom: 1.25rem; }
+
+  .instagram__gallery a {
+      transition: .3s ease all; }
+
+  .instagram__gallery a:hover {
+      color: #DE5D37; }
+
+.instagram__gallery .lightwidget-widget{
+  margin-top: 3.5rem; }
+
+/* ============================ COLOR MODE ============================ */
+body.color .shape1{
+  stroke: #6273D1;
+  fill: #6273D1;
+}
+body.color .shape2{
+  fill: #FCB95C;
+}
+body.color .shape3{
+  fill: #F3A8BE;
+}
+body.color .shape4{
+  fill: #DE5D37;
+}
+body.color .holistic__values .brdOrange{
+  border: 2px solid #DE5D37;
+  color: #DE5D37;
+} 
+body.color .holistic__values .brdYellow{
+  border: 2px solid #FCB95C;
+  color: #FCB95C;
+}
+body.color .holistic__values .brdPink{
+  border: 2px solid #F3A8BE;
+  color: #F3A8BE;
+}
+body.color .holistic__values .brdBlue{
+  border: 2px solid #6273D1;
+  color: #6273D1;
+}
+
+body.color .philosophy__svg svg .work{
+  stroke: #6273D1;
+}
+body.color .philosophy__svg svg .simple{
+  stroke: #DE5D37;
+}
+body.color .philosophy__svg svg .true{
+  stroke: #F3A8BE;
+}
+body.color .philosophy__svg svg .respect{
+  stroke: #FCB95C;
+}
+body.color .philosophy__svg svg .text{
+  fill: #202020;
+}
+body.color .scrolling-text .scrolling-text-content {
+  color: #202020;
+}
+body.color .slide__star{
+  fill: #F3A8BE;
+}
+body.color .slide__asterisk{
+  stroke: #FCB95C;
+}
+body.color .slide__venus{
+  fill: #6273D1;
+}
+body.color .slide__arrow{
+  vertical-align: middle;
+  fill: #202020;
+}
+body.color .slide__flower{
+  fill: #DE5D37;
+}
+
+/* ============================ MEDIA ============================ */
+
+@media (max-width: 768px) {
+
+/* ----------- Hero OKKKK----------- */
+
+.hero{
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.hero__box {
+  width: 85%;
+  margin-left: 7.5%; }
+
+.hero__box h1 {
+  line-height: 5.5rem; }
+
+.hero__box h4 {
+  width: 80%; }
+
+.hero__btn{
+  grid-template-columns: 90% 10%; }
+
+.shapes {
+  display: none; }
+
+/*----------- Reel ----------- */
+.reel__box{
+  height: auto;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/* ----------- Holistic OKKKK----------- */
+
+.holistic{
+  width: 100%;
+  height: auto;
+  margin: 10rem 0; }
+
+.holistic__box{
+  width: 80%;
+  height: auto;
+  margin-left: 10%; }
+
+.holistic__values{
+  min-width: 100%;
+  width: 100%;
+  margin-top: 3.5rem; }
+  
+.holistic__values p{
+  padding: 0.4rem 1.5rem 0.6rem 1.5rem;
+  margin: 0 1.5rem 1rem 0; }
+
+/* ----------- Case studies OKKK----------- */
+.caseStudy{
+  width: 100%;
+  height: auto;
+  margin-top: 10rem; }
+
+  .caseStudy h3{
+    margin-left: 10%; }
+
+.caseStudy__gallery{
+  width: 100%;
+  height: auto;
+  margin-top: 3.5rem; 
+  margin-bottom: 10rem;}
+
+.gallery__card .img__container img {
+  width: 30rem; }
+  
+/* ----------- A Nice philosophy OKKK----------- */
+.philosophy{
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
+
+.philosophy__box{
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  display: grid; 
+  grid-template-columns: auto;
+  grid-template-rows: min-content min-content;
+  row-gap: 3.5rem; }
+
+.philosophy__title{
+  height: auto;
+  width: 100%; 
+  overflow: hidden;}
+
+  .philosophy h5{
+    width: 100%;
+    min-width: 100%; }
+
+    .philosophy__svg{
+      height: auto;
+      width: 100%; 
+      max-width: 100%;
+      justify-self: center;
+      align-self: flex-end; }
+    
+/* ----------- Slide in text ----------- */
+
+.scrolling-text {
+  transform: translateX(-140px); }
+
+.scrolling-text .scrolling-text-content {
+  font-size: 90px; }
+
+.slide__asterisk{
+  margin: 0 0.5rem; }
+
+.slide__venus{
+  margin-left: 0.5rem; }
+
+.slide__flower{
+  margin: 0 0.5rem; }
+
+/* ----------- Messy gallery ----------- */
+
+.messy__gallery--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content min-content auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "one one"
+    "two two"
+    "three three"
+    "four four"
+    "five five"; }
+
+.messy__img--container {
+  width: 80%; }
+
+  /* oceans */
+  .img1 {
+    grid-area: one;
+    margin: auto auto -10% 30%;
+    z-index: 2; }
+
+  /* girl */
+  .img2 {
+    grid-area: two;
+    margin: auto 30% -10% auto;
+    z-index: 1; }
+
+  /* Van Gogh */
+  .img3 {
+    grid-area: three;
+    margin: auto auto -10% 30%;
+    z-index: 2;  }
+
+  /* pottery */
+  .img4 {
+    grid-area: four;
+    margin: -5% 30% 15% auto;
+    z-index: 3;  }
+
+  /* typographic */
+  .img5 {
+    grid-area: five;
+    margin: -30% auto -10% 30%;
+    z-index: 1; }
+
+  .messy__gallery--button {
+    margin-top: 6.5rem; }
+
+/* ----------- Quote OKKKK----------- */
+
+.quote{
+  width: 100%;
+  height: auto;
+  margin: 10rem 0; }
+
+.index__quote {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 5rem; }
+
+/* ----------- Instagram gallery ----------- */
+.instagram__gallery {
+  margin-top: 10rem;
+  width: 100%; }
+
+.instagram__title{
+  margin-left: 10%;
+  width: 70%; }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+/* ----------- Hero OKKKK----------- */
+
+.hero__box {
+  width: 80%;
+  margin-left: 10%; }
+
+.hero__box h1 {
+  line-height: 8.5rem; }
+
+.hero__box h4 {
+  width: 80%; }
+
+/*----------- Reel ----------- */
+.reel__box{
+  height: auto;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/* ----------- Holistic OKKKK----------- */
+
+.holistic__box{
+  width: 80%;
+  height: auto;
+  margin-left: 10%; }
+
+.holistic__values{
+  min-width: 100%;
+  width: 100%;
+  margin-top: 3.5rem; }
+  
+/* ----------- Case studies OKKK----------- */
+
+.caseStudy h3{
+  margin-left: 10%; }
+
+.gallery__card .img__container img {
+  width: 38rem; }
+  
+/* ----------- A Nice philosophy OKKK----------- */
+
+.philosophy__box{
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  display: grid; 
+  grid-template-columns: auto;
+  grid-template-rows: min-content min-content;
+  row-gap: 3.5rem; }
+
+.philosophy__title{
+  height: auto;
+  width: 100%; }
+
+  .philosophy h5{
+    width: 100%;
+    min-width: 100%; }
+
+.philosophy__svg{
+  height: auto;
+  width: 100%; 
+  max-width: 500px;
+  justify-self: center; }
+
+/* ----------- Slide in text ----------- */
+
+
+
+
+/* ----------- Messy gallery ----------- */
+
+.messy__gallery--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "one two four five"
+    "one three . five";
+}
+
+.messy__img--container {
+  width: 150%;
+}
+
+/* oceans */
+.img1 {
+  grid-area: one;
+  margin: auto auto auto 20%;
+  z-index: 1;
+}
+
+/* girl */
+.img2 {
+  grid-area: two;
+  margin: auto 30% -10% auto;
+  z-index: 1;
+}
+
+/* Van Gogh */
+.img3 {
+  grid-area: three;
+  margin: auto auto -10% 30%;
+  z-index: 2;
+}
+
+/* pottery */
+.img4 {
+  grid-area: four;
+  margin: auto 30% -10% auto;
+  z-index: 3;
+}
+
+/* typographic */
+.img5 {
+  grid-area: five;
+  margin: auto auto auto -75%;
+  z-index: 1;
+}
+
+/* ----------- Quote OKKKK----------- */
+.quote{
+  width: 100%;
+  height: auto;
+  margin: 10rem 0; }
+
+.index__quote {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 7.5rem; }
+
+}
+
+@media (min-width: 1600px) {
+
+  .reel, .hero, .holistic, .caseStudy, .philosophy, .messyGallery, .quote, .instagram__gallery, .footer {
+      width: 80%;
+      margin-left: 10%; } 
+
+}

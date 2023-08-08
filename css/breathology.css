@@ -1,0 +1,1130 @@
+*{
+    margin: 0;
+    padding: 0; }
+
+a {
+    color: #FEFBF3; }
+
+ /* ------------ case study fonts -------------- */
+
+.csH2 {
+    font-family: 'Maine Regular'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 5rem; }
+
+.csH3 {
+    font-family: 'Maine Regular'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.5rem;  }
+
+.csH3bd{
+    font-family: 'Maine Bold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 3.5rem; }
+
+.csH3bdIt {
+    font-family: 'Maine Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.5rem;  }
+
+.csH4bd{
+    font-family: 'Maine Bold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.55rem; }
+
+.csH5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem; }
+
+.csPgMon{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem; }
+
+.csPgMonSm{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem; }
+
+.csInd {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1rem;}
+
+ /* ------------hero -------------- */
+
+.heroimg {
+    width: 100%;
+    height: 33rem;
+    margin-top: 4rem;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathe_hero_O5Zd8_fgG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574823207);
+    background-position: center;
+    background-size: cover; }
+
+ /* ------------central text -------------- */
+
+.centraltxt{
+    margin-top: 5.5rem;
+    margin-bottom: 14rem;
+    width: 100%;
+    height: auto; }   
+
+.centraltxt__sub{
+    margin-bottom: 5.5rem;
+    margin-left: 12.5%;
+    height: 1rem;
+    display: flex;
+    align-items: flex-start;
+    position: relative; }
+
+    .centraltxt__Svg {
+        width: .9rem;
+        height: .9rem;
+        position: absolute; }
+
+    .centraltxt__sub h5 {
+        margin-left: 1.5rem;
+        align-self: center; }
+
+.centraltxt__title {
+    width: 800px;
+    margin-left: 1.5rem;
+    align-self: center;
+    margin-left: 12.5%; }
+
+.centraltxt__info{
+    display: grid;
+    grid-template-columns: 6.5fr 3.5fr;
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 6rem; }
+
+.centraltxt__mission{
+    height: auto;
+    width: 75%; }
+
+    .centraltxt__mission h4{
+        margin-bottom: 2rem; }
+
+    .centraltxt__mission p{
+        margin-top: 1.75rem; }
+
+.centraltxt__services {
+    height: auto; }
+
+    .centraltxt__services h4{
+        margin-bottom: 2rem; }
+
+    .centraltxt__servicesSpace {
+        height: 5rem;  }
+
+/* ------------stylescapes -------------- */
+
+.stylescapes {
+    width: 100%;
+    height: auto;
+    text-align: center; }
+
+    .stylescapes img {
+        border-radius: 0;
+        width: 100%;
+        height: 20rem;
+        object-fit: cover; }
+
+    .stylescapes p {
+        margin-top: 2rem;  }
+
+/* --------Setting the identity-------- */
+
+.elements{
+    height: auto;
+    width: 100%;
+    margin-top: 11rem;
+    margin-bottom: 8rem; }
+
+.elements__title {
+    width: 800px;
+    margin-left: 1.5rem;
+    align-self: center;
+    margin-left: 12.5%; }
+
+.elements__box{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-left: 12.5%;
+    margin-top: 6rem;  }
+
+.elements__txt{
+    width: 100%;  }
+
+/* ------------multimedia -------------- */
+
+.multimedia{
+    height: auto;
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.multimedia__boximg{
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    column-gap: 1.5rem;  }
+
+    .multimedia__boximg img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+
+.multimedia__boxlogo{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5rem;
+    position: relative; }
+
+    .multimedia__boxlogo img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+
+.multimedia__txt{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-left: 12.5%;
+    margin-top: 5rem;  }    
+
+/* ---------Going Digital--------- */
+
+.digital{
+    height: auto;
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.digital__title {
+    width: 800px;
+    margin-left: 1.5rem;
+    margin-left: 12.5%; }
+
+.digital__box{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-left: 12.5%;
+    margin-top: 6rem;  }
+
+.digital__txt{
+    width: 100%;  }
+
+    .digital__txt p{
+        margin-bottom: 1.75rem;  }
+
+/* -------------Graphics-------------- */
+
+.graphics{
+    height: auto;
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 10rem; }
+
+.graphics__boximg{
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5%;
+    column-gap: 1.5rem;  }
+
+    .graphics__boximg img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+
+.graphics__boxstudy{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5rem;  }
+
+    .graphics__boxstudy img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+
+.graphics__txt{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-left: 12.5%;
+    margin-top: 5rem;  }   
+    
+.graphics__screen{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10rem; }  
+
+    .graphics__screen img{
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+
+
+/* ------------legend -------------- */
+
+.legendtxt{
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+    margin-bottom: 10rem; }
+
+.legendtxt__box {
+    width: 100%;
+    text-align: center; }
+
+    .legendtxt__box h3 {
+        line-height: 5.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem; }
+
+/* ------------backend -------------- */
+
+.backend{
+    height: auto;
+    width: 100%; }
+
+.backend__box{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 12.5%;  }
+
+    .backend__txt svg{
+        fill:  #FEFBF3;
+        margin-bottom: 0.5rem; }
+
+    .backend__txt h3{
+        width: 90%; }
+
+    .backend__txt p{
+        width: 85%;
+        margin-top: 2rem;  }
+
+.backend__txtline{
+    height: 4px;
+    width: 13rem;
+    background-color:#FEFBF3;
+    margin-top: 3rem;
+    margin-bottom: 3rem; } 
+
+.backend__img{
+    height: auto;
+    max-height: 800px;
+    max-width: 475px;
+    justify-self: right;
+    width: 100%;  }
+
+    .backend__img img{
+        border-radius: 8px;
+        height: 100%;
+        width:  100%;
+        object-fit: cover; }
+
+/* ------------grid -------------- */
+
+.grid{
+    height: auto;    
+    width: 100%;
+    margin-left: 0;
+    padding-top: 8rem;
+    margin-top: 8rem; }
+
+.grid__img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+    grid-gap: 1rem;
+    grid-template: 
+    "img1 . img2"
+    "img3 txt img4"
+    ". img5 ." ;
+    min-height: 900px;
+    width: 75%;
+    margin-left: 12.5%;  }
+
+.grid__img1{
+    grid-area: img1; }
+
+.grid__img2{
+    grid-area: img2;  }
+
+.grid__img3{
+    grid-area: img3;  }
+
+.grid__img4{
+    grid-area: img4; }
+
+.grid__img5{
+    grid-area: img5;  }
+
+.grid__txt{
+    grid-area: txt;  }
+
+.grid__txtbox{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;  }
+
+    .grid__txt p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        bottom: 20%;
+        position: absolute;
+        text-align: center;
+        width: 100%;  }
+
+    .grid__txtbox svg{
+        fill:  #FEFBF3;
+        position: absolute;
+        bottom: 40%;
+        left: 50%;  
+        transform: translateX(-35px); }
+
+.grid__wrap1{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/circle-shape-breathology.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046619966) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+     -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+      -ms-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+       -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+          transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+    .grid__wrap1:hover{
+        background-size:120%; }
+
+.grid__wrap2{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/vectorial-shapes-grids-breathology.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046611781) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+    .grid__wrap2:hover{
+        background-size:120%; }
+
+.grid__wrap3{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/ui-elements-breathing-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046604529) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+    .grid__wrap3:hover{
+        background-size:120%; }
+
+.grid__wrap4{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/vectorial-illustration-star-breathing-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046634537) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+    .grid__wrap4:hover{
+        background-size:120%; }
+
+.grid__wrap5{
+    width: 100%; 
+    height: 100%; 
+    margin:0;
+    border-radius: 0.5rem;
+    background: url(https://ik.imagekit.io/nicecreativestudio/vectorial-illustration-waves-breathing-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046596780) no-repeat; 
+    background-size: 100%;
+    background-position:center center;
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -ms-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+            transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+}
+    .grid__wrap5:hover{
+        background-size:120%; }
+
+/* ------------backend final -------------- */
+
+.backend__lets{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 6rem; }
+
+    .backend__lets p{
+        margin-bottom: 1rem; }
+
+    .backend__lets a{
+        font-weight: 600;
+        font-size: 1.3rem;
+        letter-spacing: 0.15em;
+        line-height: 1.3rem; }
+
+.backend__href{
+    height: auto;
+    width: 100%; }
+
+.backend__hrefbox{
+    height: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 12.5%;  }
+
+.backend__hrefleft{
+    height: auto;
+    display: flex;
+    flex-direction: row; }
+
+    .backend__hrefleft p{
+        width: 13rem;
+        padding-left: 1.5rem; }
+
+    .backend__arrowL {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(180deg);
+        padding-bottom: 0.5rem;  }
+
+.backend__hrefrig{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    justify-content: end; }
+
+    .backend__hrefrig p{
+        width: 12rem;
+        text-align: end;
+        padding-right: 1.5rem;  }
+
+    .backend__arrowR {
+        fill: #fefbf3;
+        width: 2rem;
+        height: 2rem;
+        padding-top: 0.25rem; }
+
+/* ============================ LIGHT MODE ============================ */
+
+body.color a {
+    color: #202020; }
+
+body.color .backend__txt svg{
+    fill: #202020; }
+
+body.color .backend__txtline{
+    background-color:#202020;  } 
+
+body.color .grid__txtbox svg{
+    fill: #202020;  }
+
+body.color .backend__arrowL {
+    fill: #202020;  }
+
+body.color .backend__arrowR {
+    fill: #202020;  }
+
+    
+
+/* ============================ MEDIA ============================ */
+
+
+@media (max-width: 768px) { 
+
+    .csH2 {
+        font-size: 3.5rem;
+        line-height: 4rem; }
+
+/* ------------hero -------------- */
+
+ .heroimg {
+    height: 20rem; }
+
+/* ------------central text -------------- */
+
+.centraltxt{ 
+    margin-bottom: 8rem;}   
+
+.centraltxt__sub{
+    margin-left: 10%; }
+
+.centraltxt__title {
+    width: 80%;
+    margin-left: 10%; }
+
+.centraltxt__info{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6rem; }
+
+.centraltxt__mission{
+    height: auto;
+    width: 100%;
+    margin-bottom: 4rem; }
+
+.centraltxt__services {
+    width: 80%;
+    height: auto; }
+
+/* --------Setting the identity-------- */
+
+.elements{  
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.elements__title{
+    width: auto;
+    margin-left: 10%;  }
+
+.elements__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 10%;
+    margin-top: 4rem; }
+
+.elements__txt{
+    width: auto;  }
+
+/* ------------multimedia -------------- */
+
+.multimedia{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.multimedia__boxlogo{
+    height: 550px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology_logo__3RjITb-2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1648559275117); }
+
+    .multimedia__boxlogo img{
+        visibility: hidden; }
+
+.multimedia__boximg{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1fr);
+    margin-left: 10%;
+    row-gap: 1.5rem;  }
+
+.multimedia__txt{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    margin-left: 10%;
+    margin-top: 5rem;  }   
+
+/* ---------Going Digital--------- */
+
+.digital{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.digital__title {
+    width: auto;
+    margin-left: 10%;  }
+
+.digital__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 0rem;
+    margin-left: 10%;
+    margin-top: 4rem;  }
+
+.digital__txt{
+    width: 100%;  }
+
+    .digital__txt p{
+        margin-bottom: 1.75rem;  }
+
+/* -------------Graphics-------------- */
+
+.graphics{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.graphics__boximg{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1fr);
+    margin-left: 10%;
+    row-gap: 1.5rem;  }
+
+.graphics__boxstudy{
+    height: 550px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/sitemap_lWgKgqugn.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1647260080321); }
+
+    .graphics__boxstudy img{
+        visibility: hidden; }
+
+.graphics__txt{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    margin-left: 10%;
+    margin-top: 5rem;  }   
+    
+.graphics__screen{
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10rem;  }  
+
+/* ------------legend -------------- */
+
+.legendtxt__box {
+    width: 80%;
+    margin-left: 10%; }
+
+/* ------------backend -------------- */
+
+.backend{
+    height: auto;
+    width: 100%; }
+
+.backend__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 10%;  }
+
+    .backend__txt h3{
+        width: 95%;  }
+
+    .backend__txt p{
+        width: 100%;
+        margin-top: 3rem;  }
+
+.backend__img{
+    margin-top: 4rem;
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+    width: 100%; 
+    justify-self: left;
+    height: auto; }
+
+    .backend__img img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0%; }
+
+/* ------------grid -------------- */
+
+.grid{
+    height: auto;    
+    width: 100%;
+    margin-left: 0;
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+    margin-top: 8rem; }
+
+.grid__img {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 1rem;
+    grid-template: 
+    "img1" "txt" "img2" "img3" "img4"
+    "img5" ;
+    min-height: 1800px;
+    width: 80%;
+    margin-left: 10%;  }
+
+    .grid__txt p{
+        bottom: 5rem; }
+
+    .grid__txtbox svg{
+        bottom: 40%;
+        left: 50%;  }
+
+/* ------------backend final -------------- */
+
+    .backend__hrefleft p{
+        height: 1rem;
+        display: none;
+        width: 2rem; }
+
+    .backend__hrefrig p{
+        height: 1rem;
+        display: none;
+        width: 2rem; }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ /* ------------hero -------------- */
+
+ .heroimg {
+    height: 30rem; }
+
+ /* ------------central text -------------- */
+
+.centraltxt{ 
+    margin-bottom: 12rem; }   
+
+.centraltxt__sub{
+    margin-left: 10%; }
+
+.centraltxt__title {
+    width: 80%;
+    margin-left: 10%;  }
+
+.centraltxt__info{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    width: auto;
+    height: auto;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    margin-top: 6rem; }
+
+.centraltxt__mission{
+    height: auto;
+    width: auto;
+    margin-bottom: 4rem; }
+
+.centraltxt__services {
+    width: 23rem;
+    height: auto; }
+
+/* --------Setting the identity-------- */
+
+.elements{  
+    margin-top: 11rem;
+    margin-bottom: 8rem; }
+
+.elements__title{
+    width: auto;
+    margin-left: 10%;   }
+
+.elements__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 10%; 
+    margin-top: 4rem; }
+
+.elements__txt{
+    width: auto;  }
+
+/* ------------multimedia -------------- */
+
+.multimedia{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.multimedia__boximg{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1fr);
+    margin-left: 10%; 
+    row-gap: 1.5rem;  }
+
+.multimedia__boximg img{
+    height: auto; }
+
+.multimedia__boxlogo{
+    height: 800px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/breathology_logo__3RjITb-2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1648559275117); }
+
+    .multimedia__boxlogo img{
+        visibility: hidden; }
+
+.multimedia__txt{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    margin-left: 10%; 
+    margin-top: 6rem;  }   
+
+/* ---------Going Digital--------- */
+
+.digital{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.digital__title {
+    width: auto;
+    margin-left: 10%;   }
+
+.digital__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 0rem;
+    margin-left: 10%; 
+    margin-top: 4rem;  }
+
+/* -------------Graphics-------------- */
+
+.graphics{
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
+
+.graphics__boximg{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1fr);
+    margin-left: 10%; 
+    row-gap: 1.5rem;  }
+
+.graphics__boximg img{
+    height: auto; }
+
+.graphics__boxstudy{
+    height: 800px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1.5rem; 
+    overflow: hidden;
+    border-radius: 8px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/sitemap_lWgKgqugn.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1647260080321); }
+
+    .graphics__boxstudy img{
+        visibility: hidden; }
+
+.graphics__txt{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    margin-left: 10%; 
+    margin-top: 5rem;  }   
+    
+.graphics__screen{
+    height: auto;
+    width: auto;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    margin-top: 10rem; }  
+
+/* ------------legend -------------- */
+
+.legendtxt__box {
+    width: 80%;
+    margin-left: 10%;}
+
+/* ------------backend -------------- */
+
+.backend{
+    height: auto;
+    width: 100%; }
+
+.backend__box{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 10%;   }
+
+    .backend__txt h2{
+        width: 80%;  }
+
+    .backend__txt p{
+        width: 100%;
+        margin-top: 3rem;  }
+
+.backend__img{
+    margin-top: 4rem;
+    height: auto;
+    max-height: 550px;
+    max-width: 100%;
+    width: 100%; 
+    justify-self: left; }
+
+    .backend__img img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0%; }
+
+/* ------------grid -------------- */
+
+.grid{
+    height: auto;    
+    width: 100%;
+    margin-left: 0;
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+    margin-top: 8rem; }
+
+.grid__img {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 0.75rem;
+    grid-template: 
+    "img1" "txt" "img2" "img3" "img4"
+    "img5" ;
+    min-height: 3300px;
+    width: 80%;
+    margin-left: 10%;  }
+
+.grid__txt p{
+    bottom: 5rem; }
+
+.grid__txtbox svg{
+    bottom: 40%;
+    left: 50%;  }
+
+/* ------------backend final -------------- */
+
+.backend__hrefleft p{
+    width: 13rem;
+    padding-left: 1rem; }
+
+.backend__hrefrig p{
+    width: 12rem;
+    text-align: end;
+    padding-right: 1rem;  }
+
+}
+
+@media (min-width: 1600px) {
+  
+    .centraltxt, .elements, .multimedia, .digital, .graphics, .legendtxt, .backend, .grid, .backend__lets, .footer {
+        width: 80%;
+        margin-left: 10%; } 
+}
