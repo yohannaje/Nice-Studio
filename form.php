@@ -13,7 +13,8 @@
         $content = "\n Hi! We're " . $email . "\n About our project: " . $description . "\n Our ideal launch date is: " . $launch . "\n Our budget is: " . $budget . "\n We heard about you through " . $hear;
         
         mail($receiver, $name, $content, $header);
-        header("Location: https://nicecreativestudio.com/contact.php");
+        header("Location: https://wearenicestudio.com/contact.php");
         echo("<h2 class='formMsg'>Message sent!</h2>");
     } 
 ?>
+
