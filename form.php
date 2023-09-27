@@ -14,6 +14,6 @@
         
         mail($receiver, $name, $content, $header);
         header("Location: https://nicecreativestudio.com/contact.php");
-        echo("<h1 class='formMsg'>Message sent!</h1>");
+        echo("<h2 class='formMsg'>Message sent!</h2>");
     } 
 ?>
