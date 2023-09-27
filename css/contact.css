@@ -5,7 +5,8 @@ label {
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 3rem; }
+    line-height: 3rem;
+}
 
 textarea {
     font-family: 'Montserrat', sans-serif;
@@ -18,12 +19,14 @@ textarea {
     border: 2px solid #424242;
     border-radius: 5px;
     padding-left: 1.5%;
-    background-color: transparent; 
-    color:  #FEFBF3; }
+    background-color: transparent;
+    color: #FEFBF3;
+}
 
 .required{
-    color:  #DE5D37;
+    color: #DE5D37;
 }
+
 input {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -35,24 +38,23 @@ input {
     border: 2px solid #424242;
     border-radius: 5px;
     padding-left: 2%;
-    background-color: transparent; 
-    color:#FEFBF3; 
-    }
-    
+    background-color: transparent;
+    color: #FEFBF3;
+}
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
     box-shadow: 0 0 0 30px #202020 inset !important;
     -webkit-box-shadow: 0 0 0 30px #202020 inset !important;
 }
 
-input:-webkit-autofill{
+input:-webkit-autofill {
     -webkit-text-fill-color: #FEFBF3 !important;
 }
 
-#contactLottie{
+#contactLottie {
     display: none;
     position: fixed;
     top: 5rem;
@@ -64,7 +66,7 @@ input:-webkit-autofill{
     width: 100%;
     height: auto;
     margin-top: 11rem;
-    margin-top: 11rem; }
+}
 
 .contact__box {
     margin-left: 12.5%;
@@ -72,55 +74,71 @@ input:-webkit-autofill{
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: auto 300px; }
+    grid-template-columns: auto 300px;
+}
 
 .contact__txtbox {
     width: 100%;
-    height: auto; }
+    height: auto;
+}
 
-.contact__title{
+.contact__title {
     width: 100%;
-    height: auto; }
+    height: auto;
+}
 
-.contact__title h1{
-   margin-bottom: 3.5rem; }
+.contact__title h1 {
+    margin-bottom: 3.5rem;
+}
 
-.contact__title h4{
-    margin-bottom: 3.5rem; }
+.contact__title h4 {
+    margin-bottom: 3.5rem;
+}
 
-.contact__form{
+.contact__form {
     min-width: 570px;
     width: 85%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto) ;
+    grid-template-rows: repeat(auto);
     column-gap: 1.5rem;
     row-gap: 2.25rem;
-    grid-template-areas: 
-    "name email" "textarea textarea"
-    "launch budget" "hear hear" "btn btn"; }
+    grid-template-areas:
+        "name email"
+        "textarea textarea"
+        "launch budget"
+        "hear hear"
+        "btn btn";
+}
 
 .name {
-    grid-area: name; }
+    grid-area: name;
+}
 
 .email {
-    grid-area: email; }
+    grid-area: email;
+}
 
 .textarea {
-    grid-area: textarea; }
+    grid-area: textarea;
+}
 
 .launch {
-    grid-area: launch; }
+    grid-area: launch;
+}
 
 .budget {
-    grid-area: budget; }
+    grid-area: budget;
+}
 
 .hear {
-    grid-area: hear; }
+    grid-area: hear;
+}
 
 .btn {
-    grid-area: btn; }
+    grid-area: btn;
+}
 
 /* Custom options ---- */
 
@@ -134,13 +152,16 @@ input:-webkit-autofill{
     border: 2px solid #424242;
     border-radius: 5px;
     width: 100%;
-    color: #FEFBF3; }
+    color: #FEFBF3;
+}
 
 .custom-select select {
-    display: none; }
+    display: none;
+}
 
 .select-selected {
-    background: none;  }
+    background: none;
+}
 
 .select-selected:after {
     position: absolute;
@@ -150,11 +171,13 @@ input:-webkit-autofill{
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent; }
+    border-color: #fff transparent transparent transparent;
+}
 
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
-    top: 11px; }
+    top: 11px;
+}
 
 .select-items div,
 .select-selected {
@@ -162,7 +185,8 @@ input:-webkit-autofill{
     padding: 0.5rem 0.5rem;
     border: 2px solid #424242;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;  }
+    cursor: pointer;
+}
 
 .select-items {
     position: absolute;
@@ -170,65 +194,83 @@ input:-webkit-autofill{
     top: 100%;
     left: 0;
     right: 0;
-    z-index: 99; }
+    z-index: 99;
+}
 
 .select-hide {
-    display: none; }
+    display: none;
+}
 
 .select-items div:hover,
 .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1); }    
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
 /* Shapes ----- */
 
 .shapes {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .shapes__svgbox {
-    position: relative; 
+    position: relative;
     height: 300px;
-    width: 300px; }  
+    width: 300px;
+}
 
 .shape__pink {
-    fill:#FEFBF3;
+    fill: #FEFBF3;
     position: absolute;
     top: 0;
-    right: 0; }
+    right: 0;
+}
 
 .shape__yellow {
-    fill:#FEFBF3;
+    fill: #FEFBF3;
     position: absolute;
     top: 14%;
-    right: 57%; }
+    right: 57%;
+}
 
 .shape__blue {
-    stroke:#FEFBF3;
+    stroke: #FEFBF3;
     position: absolute;
     top: 60%;
-    right: 14%; }
+    right: 14%;
+}
 
 .shapes__us {
     width: 100%;
-    height: auto; 
+    height: auto;
     position: absolute;
     bottom: 6.75rem;
-    margin-left: 0.5rem;  }
+    margin-left: 0.5rem;
+}
+
+.shapes__us .fonPar {
+    transition: .3s ease all;
+}
+
+.shapes__us a.fonPar:hover {
+    color: #DE5D37;
+}
 
 /* SUBMIT -------- */
 
 .submit__btn {
-    margin-top: 1.5rem; }
+    margin-top: 1.5rem;
+}
 
-    
-.formMsg{
+.formMsg {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-align: center;
     color: #FEFBF3;
-    top: -10vh;
+    opacity: 0;
+    top: 10vh;
     left: 40vw;
     right: 40vw;
     width: 20vw;
@@ -236,75 +278,64 @@ input:-webkit-autofill{
     border-radius: 8px;
     background-color: #DE5D37;
     position: fixed;
-    -webkit-animation: fadein 5s;
-    animation: fadein 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    animation-name: FadeIn;
+    animation-duration: 5s;
+    transition-timing-function: linear forwards;
     z-index: 20;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@-webkit-keyframes fadein {
-    0%{
-        top: -10vh;
-        opacity: 0;
-    }
-    10%{
-        top: 15vh;
-        opacity: 1;
-    }
-    80%{
-        top: 15vh;
-        opacity: 1;
-    }
-    100%{
-        top: -10vh;
-        opacity: 0;
-    }
+@keyframes FadeIn {
+    0%,100% { opacity: 0; }
+    10%,90% { opacity: 1 }
 }
 
-@keyframes fadein {
-    0%{
-        top: -10vh;
-        opacity: 0;
-    }
-    10%{
-        top: 15vh;
-        opacity: 1;
-    }
-    80%{
-        top: 15vh;
-        opacity: 1;
-    }
-    100%{
-        top: -10vh;
-        opacity: 0;
-    }
+@-moz-keyframes FadeIn {
+    0%,100% { opacity: 0; }
+    10%,90% { opacity: 1 }
 }
 
+@-webkit-keyframes FadeIn {
+    0%,100% { opacity: 0; }
+    10%,90% { opacity: 1 }
+}
+
+@-o-keyframes FadeIn {
+    0%,100% { opacity: 0; }
+    10%,90% { opacity: 1 }
+}
+
+@-ms-keyframes FadeIn {
+    0%,100% { opacity: 0; }
+    10%,90% { opacity: 1 }
+}
 /* ----------- central txt ----------- */
 
-.centraltxt{
+.centraltxt {
     width: 100%;
     height: auto;
     margin-top: 11rem;
-    margin-bottom: 11rem; }
+    margin-bottom: 11rem;
+}
 
-.centraltxt__box{
+.centraltxt__box {
     width: 75%;
     height: auto;
-    margin-left: 12.5%; }
-        
-    .centraltxt__box h2{
-        line-height: 8rem; }
+    margin-left: 12.5%;
+}
 
-/*----------- team gallery ------------------ */
+.centraltxt__box h2 {
+    line-height: 8rem;
+}
+
+/*----------- team gallery ------------- */
 
 .teamGallery {
     width: 100%;
     height: auto;
     margin-top: 11rem;
-    margin-bottom: 11rem; }
+    margin-bottom: 11rem;
+}
 
 .items {
     scrollbar-width: none;
@@ -317,76 +348,92 @@ input:-webkit-autofill{
     transform: scale(0.98);
     will-change: transform;
     user-select: none;
-    height: min-content; }
+    height: min-content;
+}
 
 .items::-webkit-scrollbar {
     display: none;
-    /* for Chrome, Safari, and Opera */ }
+    /* for Chrome, Safari, and Opera */
+}
 
 .items.active {
     cursor: pointer;
     cursor: -webkit-grabbing;
-    transform: scale(1); }
+    transform: scale(1);
+}
 
 .item {
     display: inline-block;
-    margin: 0 0.75em; }
+    padding-left: 3px;
+}
 
 .gallery__card {
     cursor: pointer;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+}
 
 .gallery__card .img__container img {
-    width: 30rem;
-    cursor: url("../assets/draghandle.svg"), pointer; }
+    width: 27rem;
+    cursor: url("../assets/draghandle.svg"), pointer;
+}
 
-
-/* ============================ LIGHT MODE ============================ */
+/* ================= LIGHT MODE ================== */
 
 body.color textarea {
-    color: #000000; }
+    color: #000000;
+}
 
 body.color input {
-    color: #000000; }
+    color: #000000;
+}
 
 body.color .shape__pink {
-    fill:#F3A8BE; }
+    fill: #F3A8BE;
+}
 
 body.color .shape__yellow {
-    fill:#FCB95C; }
+    fill: #FCB95C;
+}
 
 body.color .shape__blue {
-    stroke:#6273D1;; }
+    stroke: #6273D1;
+    ;
+}
 
 body.color .select-items div,
 body.color .select-selected {
-    color:#202020;
-    border-color: transparent transparent #eeeeee transparent; }
+    color: #202020;
+    border-color: transparent transparent #eeeeee transparent;
+}
 
 body.color .select-items {
-    background-color: #FEFBF3; }
+    background-color: #FEFBF3;
+}
 
 body.color .select-selected:after {
-    border-color:#202020 transparent transparent transparent; }
+    border-color: #202020 transparent transparent transparent;
+}
 
 body.color .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #202020 transparent; }
+    border-color: transparent transparent #202020 transparent;
+}
 
-    body.color input:-webkit-autofill,
-    body.color input:-webkit-autofill:hover, 
-    body.color input:-webkit-autofill:focus, 
-    body.color input:-webkit-autofill:active{
-        box-shadow: 0 0 0 30px #FEFBF3 inset !important;
-        -webkit-box-shadow: 0 0 0 30px #FEFBF3 inset !important;
-    }
-    
-    body.color input:-webkit-autofill{
-        -webkit-text-fill-color: #202020 !important;
-    }
-/* ============================ MEDIA ============================ */
+body.color input:-webkit-autofill,
+body.color input:-webkit-autofill:hover,
+body.color input:-webkit-autofill:focus,
+body.color input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #FEFBF3 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #FEFBF3 inset !important;
+}
 
-@media (max-width: 768px) { 
+body.color input:-webkit-autofill {
+    -webkit-text-fill-color: #202020 !important;
+}
+
+/* =================== MEDIA ================= */
+
+@media (max-width: 768px) {
 
     /* ----------- Form ----------- */
     .formMsg{
@@ -398,7 +445,7 @@ body.color .select-selected.select-arrow-active:after {
         width: 100%;
         height: auto;
         margin-top: 10rem;
-        margin-top: 10rem; }
+    }
 
     .contact__box {
         margin-left: 10%;
@@ -406,21 +453,28 @@ body.color .select-selected.select-arrow-active:after {
         width: auto;
         height: auto;
         display: grid;
-        grid-template-columns: 100%; 
-        grid-template-rows: auto auto;}
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
 
-    .contact__form{
+    .contact__form {
         min-width: auto;
         width: 100%;
         height: auto;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(auto) ;
+        grid-template-rows: repeat(auto);
         column-gap: 0rem;
         row-gap: 1.5rem;
-        grid-template-areas: 
-        "name" "email" "textarea"
-        "launch" "budget" "hear" "btn"; }
+        grid-template-areas:
+            "name"
+            "email"
+            "textarea"
+            "launch"
+            "budget"
+            "hear"
+            "btn";
+    }
 
     /* Shapes ----- */
 
@@ -428,75 +482,89 @@ body.color .select-selected.select-arrow-active:after {
         width: 100%;
         height: auto;
         position: relative;
-        margin-top: 2rem; }
+        margin-top: 2rem;
+    }
 
     .shapes__svgbox {
-        position: relative; 
+        position: relative;
         height: 130px;
-        width: 100%; }  
+        width: 100%;
+    }
 
     .shape__pink {
-        fill:#FEFBF3;
+        fill: #FEFBF3;
         width: auto;
         position: absolute;
         top: -50px;
-        right: 0; }
+        right: 0;
+    }
 
     .shape__yellow {
-        fill:#FEFBF3;
+        fill: #FEFBF3;
         width: auto;
         position: absolute;
         top: -25px;
-        right: 77px; }
+        right: 77px;
+    }
 
     .shape__blue {
-        stroke:#FEFBF3;
+        stroke: #FEFBF3;
         width: auto;
         position: absolute;
         top: 25px;
-        right: 22px; }
+        right: 22px;
+    }
 
     .shapes__us {
         width: 100%;
-        height: auto; 
+        height: auto;
         position: absolute;
         bottom: -2rem;
-        margin-left: 0rem;  }
+        margin-left: 0rem;
+    }
 
     /* ----central txt ----- */
 
-    .centraltxt{
-        margin-top: 10rem;
-        margin-bottom: 10rem; }
+    .centraltxt {
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+    }
 
-    .centraltxt__box{
+    .centraltxt__box {
         width: 80%;
         height: auto;
-        margin-left: 10%; }
+        margin-left: 10%;
+    }
 
-    .centraltxt__box h2{
-        line-height: 6rem; }
+    .centraltxt__box h2 {
+        line-height: 4.5rem;
+    }
 
     /* ----- Team gallery ---- */
 
-    .gallery__card .img__container img {
-        width: 20rem; }
+    .teamGallery {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 
+    .gallery__card .img__container img {
+        width: 20rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    /* ----------- Form ----------- */
     .formMsg{
         left: 37.5vw;
         right: 37.5vw;
         width: 25vw;
     }
-    /* ----------- Form ----------- */
     .contact {
         width: 100%;
         height: auto;
         margin-top: 11rem;
-        margin-top: 11rem; }
+    }
 
     .contact__box {
         margin-left: 10%;
@@ -504,64 +572,88 @@ body.color .select-selected.select-arrow-active:after {
         width: auto;
         height: auto;
         display: grid;
-        grid-template-columns: 100%; 
-        grid-template-rows: auto auto;}
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
 
-    .contact__form{
+    .contact__form {
         min-width: auto;
-        width: 100%;  }
+        width: 100%;
+    }
 
     /* Shapes ----- */
 
     .shapes {
         width: 100%;
         height: auto;
-        position: relative; }
+        position: relative;
+    }
 
     .shapes__svgbox {
-        position: relative; 
+        position: relative;
         height: 250px;
-        width: 100%; }  
+        width: 100%;
+    }
 
     .shape__pink {
-        fill:#FEFBF3;
+        fill: #FEFBF3;
         width: auto;
         position: absolute;
         top: -25%;
-        right: 0; }
+        right: 0;
+    }
 
     .shape__yellow {
-        fill:#FEFBF3;
+        fill: #FEFBF3;
         width: auto;
         position: absolute;
         top: -15%;
-        right: 19%; }
+        right: 19%;
+    }
 
     .shape__blue {
-        stroke:#FEFBF3;
+        stroke: #FEFBF3;
         width: auto;
         position: absolute;
         top: 25%;
-        right: 8%; }
+        right: 8%;
+    }
 
     .shapes__us {
         width: 100%;
-        height: auto; 
+        height: auto;
         position: absolute;
         bottom: 4rem;
-        margin-left: 0rem;  }
+        margin-left: 0rem;
+    }
 
     /* ----central txt ----- */
-        
-    .centraltxt__box{
+
+    .centraltxt {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
+    .centraltxt__box {
         width: 80%;
         height: auto;
-        margin-left: 10%; }
+        margin-left: 10%;
+    }
+
+    .centraltxt__box h2 {
+        line-height: 7rem;
+    }
 
     /* ----- Team gallery ---- */
 
+    .teamGallery {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
     .gallery__card .img__container img {
-        width: 25rem; }
+        width: 24rem;
+    }
 
 }
 
@@ -571,7 +663,10 @@ body.color .select-selected.select-arrow-active:after {
         right: 45vw;
         width: 10vw
     }
-    .contact, .centraltxt, .footer  {
+    .contact,
+    .centraltxt,
+    .footer {
         width: 80%;
-        margin-left: 10%; } 
+        margin-left: 10%;
+    }
 }

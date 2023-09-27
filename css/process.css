@@ -35,15 +35,14 @@
     border-left: none;
     border-right: none;
     cursor: pointer;
-    padding: 2rem 0;
+    padding: 1rem 0;
     width: 100%;
     text-align: left;
     transition: 0.3s;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     position: relative; }
 
 .process__accordion h5 {
-    padding-bottom: 0.5rem;
     color: #FEFBF3; }
 
 .process__accordion h3 {
@@ -53,7 +52,7 @@
     fill: #DE5D37;
     position: absolute;
     right: 0.5rem;
-    bottom: 2rem;
+    bottom: 1.5rem;
     transform: rotate(45deg);
     width: 45px; }
 
@@ -110,7 +109,7 @@
     grid-area: orbit;
     max-height: 1250px;
     width: 140%;
-    justify-self: right; }
+    justify-self: right;  }
 
 .lottie__container--light {
     display: none; }
@@ -166,12 +165,13 @@
     margin-top: 11rem; }
   
     .caseStudy h3{
-      margin-left: 12.5%; }
+        margin-left: 12.5%; 
+        width: 75%;}
   
   .caseStudy__gallery{
     width: 100%;
     height: auto;
-    margin-top: 3.5rem; 
+    margin-top: 1.5rem; 
     margin-bottom: 11rem;}
   
   .items {
@@ -198,7 +198,8 @@
   
   .item {
     display: inline-block;
-    margin: 2rem 0.75rem; }
+    margin: 2rem 0; 
+    padding-left: 3px;}
   
   .gallery__card {
     cursor: pointer;
@@ -206,7 +207,7 @@
     flex-direction: column; }
   
   .gallery__card .img__container img {
-    width: 48rem;
+    width: 40rem;
     cursor: url("../assets/draghandle.svg"), pointer; }
   
   .gallery__card h5 {
@@ -249,12 +250,14 @@ body.color .lottie__container--light {
     width: 140%;
     justify-self: right; }
 
-/* ============================ MEDIA ============================ */
+/* ================= MEDIA ================== */
+
 @media (max-width: 768px) {
  
     /* ----------- Introduction ----------- */
     .processIntro {
-        margin-top: 10rem; }
+        margin-top: 10rem; 
+        margin-bottom: 3.5rem; }
 
     .process__intro {
         width: 80%;
@@ -270,8 +273,8 @@ body.color .lottie__container--light {
 
     /*----------- Process Accordion ----------- */
     .processAccordion {
-        margin-top: 7rem;
-        margin-bottom: 10rem; }
+        margin-top: 3.5rem;
+        margin-bottom: 5rem; }
 
     .processAccordion__box {
         width: 80%;
@@ -279,6 +282,7 @@ body.color .lottie__container--light {
 
     .process__accordion--arrow {
         right: 0;
+        bottom: 1rem;
         width: 30px; }
 
     .panel {
@@ -294,7 +298,8 @@ body.color .lottie__container--light {
     /*--------- The holistic method ----------- */
 
     .holistic {
-        margin: 10rem 0; }
+        margin-top: 5rem;
+        margin-bottom: 5rem; }
 
     .holistic__box {
         display: grid;
@@ -302,7 +307,6 @@ body.color .lottie__container--light {
         grid-template-rows: repeat(auto);
         grid-template-areas:
             "orbit" "title" "table";
-        row-gap: 3.5rem;
         margin-left: 10%;
         width: 80%; }
 
@@ -325,6 +329,7 @@ body.color .lottie__container--light {
         grid-area: title; }
 
         .holistic__title h2 {
+            margin-top: 3.5rem;
             width: 100%; }
 
     .holistic__tablebox {
@@ -334,7 +339,7 @@ body.color .lottie__container--light {
 
         .holistic__tablebox h3 {
             width: 100%;
-            margin-bottom: 3rem; }
+            margin-bottom: 2rem; }
 
     .holistic__table {
         height: auto;
@@ -358,11 +363,14 @@ body.color .lottie__container--light {
         padding: 0.5rem 0; 
         border-bottom: solid 1px #595959;  }
 
+        body.color .holistic__table .border {  /* --check-- */
+            border-bottom: none;  }
+
     /* ----------- Case studies OKKK----------- */
     .caseStudy{
         width: 100%;
         height: auto;
-        margin-top: 10rem; }
+        margin-top: 5rem; }
   
     .caseStudy h3{
       margin-left: 10%; }
@@ -370,8 +378,8 @@ body.color .lottie__container--light {
     .caseStudy__gallery{
         width: 100%;
         height: auto;
-        margin-top: 3.5rem; 
-        margin-bottom: 10rem;}
+        margin-top: 1.5rem; 
+        margin-bottom: 5rem;}
     
     .gallery__card .img__container img {
         width: 30rem; }
@@ -380,11 +388,19 @@ body.color .lottie__container--light {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     /* ----------- Introduction ----------- */
+
+    .processIntro {
+        margin-bottom: 5rem; }
+
     .process__intro {
         width: 80%;
         margin: 0 10%; }
 
     /*----------- Process Accordion ----------- */
+
+    .processAccordion {
+        margin-top: 5rem;
+        margin-bottom: 8rem; }
 
     .processAccordion__box {
         width: 80%;
@@ -398,13 +414,16 @@ body.color .lottie__container--light {
 
     /*--------- The holistic method ----------- */
 
+    .holistic {
+        margin-top: 8rem;
+        margin-bottom: 8rem; }
+
     .holistic__box {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(auto);
         grid-template-areas:
             "orbit" "title" "table";
-        row-gap: 3.5rem;
         margin-left: 10%;
         width: 80%; }
 
@@ -427,6 +446,7 @@ body.color .lottie__container--light {
         grid-area: title; }
 
         .holistic__title h2 {
+            margin-top: 5rem;
             width: 100%; }
 
     .holistic__tablebox {
@@ -452,16 +472,17 @@ body.color .lottie__container--light {
     .caseStudy{
         width: 100%;
         height: auto;
-        margin-top: 10rem; }
+        margin-top: 8rem; }
     
         .caseStudy h3{
-        margin-left: 10%; }
+            width: 80%;
+            margin-left: 10%; }
     
     .caseStudy__gallery{
         width: 100%;
         height: auto;
-        margin-top: 3.5rem; 
-        margin-bottom: 10rem;}
+        margin-top: 1.5rem; 
+        margin-bottom: 8rem;}
     
     .gallery__card .img__container img {
         width: 30rem; }

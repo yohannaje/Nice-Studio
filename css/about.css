@@ -62,7 +62,7 @@
     grid-area: ignacio;
 }
 
-/*----------- Our core values ----------- */
+/*---------- Our core values -------- */
 
 .values{
     width: 100%;
@@ -112,13 +112,13 @@
     width: 75%;
     margin: 11rem 12.5%; }
 
-/*----------- careers ------------------ */
+/*----------- careers ----------- */
 
 .team__careers {
     height: auto;
     width: 100%;
     margin-top: 11rem;
-    margin-bottom: 11rem; }
+    margin-bottom: 7rem; }
 
 .team__careersbox {
     display: grid;
@@ -162,7 +162,7 @@
     position: relative; }
 
 .team__careerstxt {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: .85rem;
@@ -182,7 +182,7 @@
     position: relative;  }
 
 .team__careersSub h5 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
@@ -205,12 +205,12 @@
     height: 2.25rem;
     position: absolute; }
 
-/*----------- team gallery ------------------ */
+/*--------- team gallery ----------- */
 
 .teamGallery {
     width: 100%;
     height: auto;
-    margin-top: 11rem;
+    margin-top: 7rem;
     margin-bottom: 11rem; }
 
 .items {
@@ -237,7 +237,7 @@
 
 .item {
     display: inline-block;
-    margin: 0 0.75em; }
+    padding-left: 3px; }
 
 .gallery__card {
     cursor: pointer;
@@ -245,10 +245,10 @@
     flex-direction: column; }
 
 .gallery__card .img__container img {
-    width: 30rem;
+    width: 27rem;
     cursor: url("../assets/draghandle.svg"), pointer; }
 
-/* ============================ COLOR MODE ============================ */
+/* ============== COLOR MODE ================= */
 
 body.color .team__careers1svg {
     fill: #202020; }
@@ -259,15 +259,15 @@ body.color .team__careersSvg--shape1{
 body.color .team__careersSvg--shape2{
     fill: #F3A8BE; }
 
-/* ============================ MEDIA ============================ */
+/* ================== MEDIA ================== */
 
 @media (max-width: 768px) {
 
-    /*----------- a nice team ----------- */
+    /*-------- a nice team ---------- */
 
     .team {
         margin-top: 10rem;
-        margin-bottom: 10rem; }
+        margin-bottom: 5rem; }
 
     .team__box {
         width: 80%;
@@ -282,7 +282,7 @@ body.color .team__careersSvg--shape2{
             row-gap: 3.5rem;
             margin-bottom: 3.5rem; }
 
-        /*----------- a nice team AVATARS----------- */
+        /*-------- a nice team AVATARS------ */
         .team__boximg{
             width: 100%;
             display: grid; 
@@ -304,7 +304,7 @@ body.color .team__careersSvg--shape2{
             max-height: 400px;
             transform: translateX(0%); }
 
-    /*----------- Our core values ----------- */
+    /*-------- Our core values --------- */
     
     .values__box{
         display: grid; 
@@ -315,22 +315,22 @@ body.color .team__careersSvg--shape2{
             "title" "title"
             "work" "simple"
             "true" "respect"; 
-            margin: 10rem 10%; }
+            margin: 5rem 10%; }
     
     .values__container h4{
         margin-bottom: 2rem; }
 
     /*----------- Quote ----------- */
     .about__quote{
-        line-height: 6rem;
+        line-height: 4.5rem;
         width: 80%;
-        margin: 10rem 10%; }
+        margin: 5rem 10%; }
 
-    /*----------- careers ------------------ */
+    /*---------- careers ---------- */
 
     .team__careers {
-        margin-top: 10rem;
-        margin-bottom: 10rem; }
+        margin-top: 5rem;
+        margin-bottom: 5rem; }
 
     .team__careersbox {
         display: grid;
@@ -371,12 +371,16 @@ body.color .team__careersSvg--shape2{
         width: 100%; }
 
     .team__careers3 {
-        height: 9.25rem; }
+        height:7.5rem; }
     
     .team__careerssub2{
         width: 100px;  }
 
     /* ----- Team gallery ---- */
+
+    .teamGallery {
+        margin-top: 5rem;
+        margin-bottom: 5rem; }
 
     .gallery__card .img__container img {
         width: 20rem; }
@@ -384,24 +388,40 @@ body.color .team__careersSvg--shape2{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /*----------- a nice team ----------- */
+    /*----------- a nice team --------- */
+
     .team {
         width: 100%;
-        margin-left: 0%; }
+        margin-left: 0%;
+        margin-bottom: 8rem; }
 
-    /*----------- Our core values ----------- */
-    .values{
-        margin: 11rem 10%; }
+    /*-------- Our core values --------- */
 
-    /*----------- Quote ----------- */
+    .values__box{
+        margin: 8rem 10%; }
+
+    /*------------- Quote -------------- */
+
     .about__quote{
         width: 80%;
-        margin: 11rem 10%; }
+        line-height: 7rem;
+        margin: 8rem 10%; }
 
-    /*----------- careers ------------------ */
+    /*----------- careers ------------- */
+
+    .team__careers {
+        margin-top: 8rem;
+        margin-bottom: 5rem; }
+
     .team__careersbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "txt1 txt1" "txt2 txt3";
+        row-gap: 3.5rem;
+        height: auto;
         width: 80%;
-        margin: 11rem 10%;  }
+        margin-left: 10%;  }
     
     .team__careers1 {
         grid-area: txt1;
@@ -430,20 +450,24 @@ body.color .team__careersSvg--shape2{
         height: 9.25rem; }
 
     .team__careers3 {
-        height: 9.25rem; }
+        height: 6rem; }
     
     .team__careerssub2{
         width: 100px;  }
 
-    /* ----- Team gallery ---- */
+    /* -------- Team gallery ------ */
+
+    .teamGallery {
+        margin-top: 5rem;
+        margin-bottom: 8rem; }
 
     .gallery__card .img__container img {
-        width: 25rem; }
+        width: 24rem; }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
 
-    /*----------- a nice team AVATARS----------- */
+    /*--------- a nice team AVATARS------ */
 
     .team__box {
         height: auto;
@@ -469,18 +493,51 @@ body.color .team__careersSvg--shape2{
         width: 90%;
         height: 70%;
         transform: translateX(-10%); }
+}
 
-    /*----------- careers ------------------ */
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+    /*----------- careers ------------ */
         
+    .team__careers {
+        margin-top: 11rem;
+        margin-bottom: 5rem; }
+
     .team__careersbox {
         display: grid;
-        grid-template-columns: 1.4fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         grid-template-areas: "txt1 txt1" "txt2 txt3";
         row-gap: 3.5rem;
         height: auto;
-        width: 80%;
-        margin-left: 10%;  }
+        width: 75%;
+        margin-left: 12.5%;  }
+
+        .team__careers1 {
+            grid-area: txt1;
+            width: 100%;
+            height: 2rem;
+            position: relative; }
+        
+        .team__careers1a {
+            position: absolute;
+            margin: 0;
+            left: 0;
+            top: 0rem; }
+        
+        .team__careers1b {
+            position: absolute;
+            left: 12.5rem;
+            top: 0rem; }
+
+        .team__careers1svg {
+            position: absolute;
+            left: 21.25rem;
+            top: 0.5rem; 
+            transform: rotate(90deg);}
+
+        .team__careers2 {
+            height: 9.25rem; }
 }
 
 @media (min-width: 1600px) {

@@ -1,7 +1,8 @@
 /*----------- Intro ----------- */
+
 .workIntro{
     width: 100%;
-    margin: 11rem 0 3.5rem 0; }
+    margin: 11rem 0 5rem 0; }
 
 .work__intro{
     height: auto;
@@ -28,42 +29,15 @@
     margin-right: 5%;
     position: relative;  }
 
-.reel__box video{
-    border-radius: 0.5rem; }
+    .reel__box video{
+        border-radius: 0.5rem; }
 
-/*----------- Reel mobile----------- */
+/*----------- Reel Mobile ----------- */
 
-    .reelmobile {
-        display: none;  }
+.reelmobile{
+    display: none; }
 
-    .multimedia__boxvid{
-        height: auto;
-        width: auto;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 1.5rem;
-        position: relative;  }
-    
-        .multimedia__boxvid video{
-            border-radius: 0.5rem; }
-    
-    .multimedia__controls{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        cursor: pointer;
-        transform: translate(-15px, -35px); }
-    
-    .multimedia__btn{
-        border: none;
-        background-color: transparent;  }
-    
-    .multimedia__btn button:before{
-        border: none;
-        background-color: transparent; }
-  
-
-/*----------- Case studies ----------- */
+/*--------- Case studies ---------- */
 
 .workAccordion {
     width: 100%;
@@ -77,34 +51,34 @@
 
 .work__accordion {
     background: none;
-    border-bottom: 1px solid #FEFBF3;
+    border-bottom: 1px solid #595959;
     border-top: none;
     border-left: none;
     border-right: none;
     cursor: pointer;
-    padding: 2rem 1rem 2rem 0;
+    padding: 1rem 1rem 2rem 0;
     width: 100%;
     text-align: left;
-    margin-bottom: 2rem; 
+    margin-bottom: 1.5rem; 
     position: relative; }
 
 .work__accordion h5{
     color: #FEFBF3;
-    margin-bottom: 1rem; }
+    margin-bottom: 0.5rem; }
 
-.work__accordion h2 {
+.work__accordion h4 {
     color: #FEFBF3;
-    line-height: 3.25rem;
+    line-height: 3rem;
     width:85%; }
 
-.work__accordion h2 .Un{
+.work__accordion h4 .Un{
     text-decoration: underline 2px;
     -webkit-text-decoration-line: underline; /* Safari */ }
 
 .work__accordion--arrow {
     position: absolute;
     right: 1rem;
-    bottom: 2.5rem; }
+    bottom: 2rem; }
 
 /*----------- Quote ----------- */
 .quote {
@@ -119,7 +93,7 @@
 .work__quote a .arrow__link{
     fill: none;  }
 
-/* ----------- Instagram gallery ----------- */
+/* ------ Instagram gallery ------- */
 
 .instagram__gallery {
     margin-top: 11rem;
@@ -129,7 +103,7 @@
     margin-left: 12.5%;
     width: 75%;
     height: auto;
-    margin-bottom: 3.5rem; }
+    margin-bottom: 1.5rem; }
 
     .instagram__gallery h3 {
         padding-bottom: 1.25rem; }
@@ -141,20 +115,20 @@
         color: #DE5D37; }
 
 .instagram__gallery .lightwidget-widget{
-    margin-top: 3.5rem; }
+    margin-top: 1.5rem; }
 
-/* ============================ COLOR MODE ============================ */
+/* =========== COLOR MODE ============= */
 
 body.color .work__accordion h5 {
     color: #202020; }
 
-body.color .work__accordion h2 {
+body.color .work__accordion h4 {
     color: #202020; }
 
 body.color .work__accordion{
     border-bottom: 1px solid #202020; }
 
-/* ============================ MEDIA ============================ */
+/* ============== MEDIA ================= */
 
 @media (max-width: 768px) {
 
@@ -163,12 +137,19 @@ body.color .work__accordion{
     .reel{
         display: none; }
 
-    /*----------- Reel mobile----------- */
+    /*----------- Reel Mobile ----------- */
 
-    .reelmobile {
-        display: block;  }
+    .reelmobile{
+        display: block; }
+
+        .reelmobile__box{
+            position: relative;  }
+        
+            .reelmobile__box video{
+                border-radius: 0.5rem; }
 
     /*----------- Intro ----------- */
+
     .workIntro{
         margin: 10rem 0 3.5rem 0; }
 
@@ -183,46 +164,46 @@ body.color .work__accordion{
         width: 100%;
         margin-top: 3.5rem; }
         
-    /*----------- Case studies ----------- */
+    /*-------- Case studies --------- */
+
     .workAccordion {
-        margin: 10rem 0; }
+        margin-top: 3.5rem;
+        margin-bottom: 5rem;  }
 
     .work__accordionbox {
         margin: 0 10%; }
 
+    .work__accordion h4 {
+        line-height: 2.5rem; }
+
     .work__accordion--arrow {
         position: absolute;
         right: 0rem;
-        bottom: 2.5rem; }
+        bottom: 1.5rem; }
         
-    /*----------- Quote ----------- */
+    /*--------- Quote ----------- */
     .quote {
-        margin: 10rem 0; }
+        margin: 5rem 0; }
     
     .work__quote{
-        line-height: 6rem; 
+        line-height: 4.5rem; 
         margin: 0 10%; }
 
-    /* ----------- Instagram gallery ----------- */
+    /* ----- Instagram gallery ---- */
+
      .instagram__gallery {
-        margin-top: 10rem;
+        margin-top: 6rem;
         width: 100%; }
 
     .instagram__title{
         margin-left: 10%;
-        width: 70%; }
+        width: 70%;  }
 }  
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /*----------- Reel ----------- */
-    .reel__box{
-        height: auto;
-        width: auto;
-        margin-left: 10%;
-        margin-right: 10%; }
-
      /*----------- Intro ----------- */
+
      .work__intro{
         width: 80%;
         margin-left: 10%; }
@@ -234,24 +215,47 @@ body.color .work__accordion{
         width: 70%;
         margin-top: 3.5rem; }
 
-    /*----------- Case studies ----------- */
+    /*----------- Reel ----------- */
+
+    .reel{
+        display: none; }
+
+    /*----------- Reel Mobile ----------- */
+
+    .reelmobile{
+        display: block; }
+
+        .reelmobile__box{
+            position: relative;  }
+        
+            .reelmobile__box video{
+                border-radius: 0.5rem; }
+
+    /*-------- Case studies --------- */
+
+    .workAccordion {
+        margin: 9rem 0; }
+
     .work__accordionbox {
         margin: 0 10%; }
 
     /*----------- Quote ----------- */
-    .work__quote{
-        margin: 0 10%; }
 
+    .quote {
+        margin: 9rem 0; }
+
+    .work__quote{
+        line-height: 7rem;
+        margin: 0 10%; }
 }  
 
 @media (min-width: 1600px) {
+
+    .lightwidget-widget{
+        margin-left: 12.5%;
+        width: 75% !important;  }
   
     .reel, .workIntro, .workAccordion, .quote, .instagram__gallery, .footer {
         width: 80%;
         margin-left: 10%; } 
-
 }
-
-
-
-

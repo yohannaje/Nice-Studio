@@ -1,17 +1,19 @@
-/* ----------- Hero OKKK----------- */
+/* ----------- Hero ----------- */
 .hero{
   width:100%;
   height: auto;
   margin-top: 11rem;
-  margin-bottom: 3.5rem; }
+  margin-bottom: 5rem; }
 
 .hero__box {
   width: 90%;
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 .hero__box h1 {
   width: auto;
   height: auto;
+  text-align: center;
   line-height: 9rem; }
 
   .hero__box h1 .underline{
@@ -25,9 +27,13 @@
 
 .hero__btn{
   width: 100%;
-  height: min-content;
-  display: grid;
-  grid-template-columns: 50% 50%; }
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  height: min-content;}
+.hero__btn button{
+  margin: auto;
+}
 
 .shapes {
   text-align: right; }
@@ -45,23 +51,27 @@ header {
   cursor: default; }
 
 /*----------- Reel ----------- */
+
 .reel{
   width: 100%;
   height: auto; }
 
 .reel__box{
-  height: 80vh;
+  height: auto;
   width: auto;
   margin-left: 5%;
   margin-right: 5%;
   position: relative;  }
 
-.reel__box video{
-  width: 100%;
-  height: 100%;
-  border-radius: 8px; }
+  .reel__box video{
+      border-radius: 0.5rem; }
 
-/* ----------- Holistic OKK----------- */
+/*----------- Reel Mobile ----------- */
+
+.reelmobile{
+  display: none; }
+
+/* ----------- Holistic ----------- */
 .holistic{
   width: 100%;
   height: auto;
@@ -97,20 +107,21 @@ header {
 .holistic__values .brdBlue, .brdYellow, .brdPink, .brdOrange {
   border: 2px solid #FEFBF3; }
 
-/* ----------- Case studies OKKK----------- */
+/* ----------- Case studies ----------- */
 .caseStudy{
   width: 100%;
   height: auto;
   margin-top: 11rem; }
 
   .caseStudy h3{
-    margin-left: 12.5%; }
+      margin-left: 12.5%; 
+      width: 75%;}
 
 .caseStudy__gallery{
   width: 100%;
   height: auto;
-  margin-top: 3.5rem; 
-  margin-bottom: 11rem;}
+  margin-top: 1.5rem; 
+  margin-bottom: 9rem;}
 
 .items {
   scrollbar-width: none;
@@ -136,7 +147,8 @@ header {
 
 .item {
   display: inline-block;
-  margin: 2rem 0.75rem; }
+  margin: 2rem 0; 
+  padding-left: 3px;}
 
 .gallery__card {
   cursor: pointer;
@@ -144,7 +156,7 @@ header {
   flex-direction: column; }
 
 .gallery__card .img__container img {
-  width: 48rem;
+  width: 40rem;
   cursor: url("../assets/draghandle.svg"), pointer; }
 
 .gallery__card h5 {
@@ -155,11 +167,11 @@ header {
   margin-right: 0.5rem;
   fill: #DE5D37; }
 
-/* ----------- A Nice philosophy OKKK----------- */
+/* -------- A Nice philosophy ----------- */
 
 .philosophy{
   width: 100%;
-  margin-top: 11rem;
+  margin-top: 9rem;
   margin-bottom: 11rem; }
 
 .philosophy__box{
@@ -196,54 +208,50 @@ header {
   .philosophy__svg svg .work, .simple, .true, .respect{
     stroke: #FEFBF3; }
 
-/* ----------- Slide in text OKKKK----------- */
+/* --------- Slide in text ---------- */
 
 .container {
   position: relative;
   width: 150%;
   overflow: hidden;
   left: -4rem;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 .scrolling-text {
-  display: inline-block;
-}
+  display: inline-block; }
 
 .scrolling-text .scrolling-text-content {
   color: #FEFBF3;
   font-size: 120px;
   white-space: nowrap;
-  margin: 1rem 0;
-}
+  margin: 1rem 0;  }
 
 .slide__star{
-  fill: #FEFBF3;
-}
+  fill: #FEFBF3; }
+
 .slide__asterisk{
   stroke: #FEFBF3;
-  margin: 0 2rem;
-}
+  margin: 0 2rem;  }
+
 .slide__venus{
   fill: #FEFBF3;
-  margin-left: 2rem;
-}
+  margin-left: 2rem; }
+
 .slide__arrow{
   vertical-align: middle;
-  fill: #FEFBF3;
-}
+  fill: #FEFBF3;   }
+
 .slide__flower{
   fill: #FEFBF3;
-  margin: 0 2rem;
-}
+  margin: 0 2rem;  }
 
-/* ----------- Messy gallery OKKKK----------- */
+/* -------- Messy gallery --------- */
 
 .messyGallery {
   width: 100%;
   height: auto;
-  margin-top: 11rem;
-  margin-bottom: 11rem; }
+  margin-top: 7rem;
+  margin-bottom: 7rem; }
 
 .messy__gallery--container {
   width: 90%;
@@ -254,7 +262,8 @@ header {
   grid-template-areas:
     "one two four five"
     "one three . five" ;
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 .messy__img--container {
   width: 120%;
@@ -317,7 +326,7 @@ header {
   margin-left: 12.5%;
   line-height: 7.5rem; }
 
-/* ----------- Instagram gallery ----------- */
+/* -------- Instagram gallery -------- */
 
 .instagram__gallery {
   margin-top: 11rem;
@@ -327,7 +336,7 @@ header {
   margin-left: 12.5%;
   width: 75%;
   height: auto;
-  margin-bottom: 3.5rem; }
+  margin-bottom: 1.5rem; }
 
   .instagram__gallery h3 {
       padding-bottom: 1.25rem; }
@@ -339,9 +348,9 @@ header {
       color: #DE5D37; }
 
 .instagram__gallery .lightwidget-widget{
-  margin-top: 3.5rem; }
+  margin-top: 1.5rem; }
 
-/* ============================ COLOR MODE ============================ */
+/* ================== COLOR MODE ================= */
 body.color .shape1{
   stroke: #6273D1;
   fill: #6273D1;
@@ -371,7 +380,6 @@ body.color .holistic__values .brdBlue{
   border: 2px solid #6273D1;
   color: #6273D1;
 }
-
 body.color .philosophy__svg svg .work{
   stroke: #6273D1;
 }
@@ -407,22 +415,22 @@ body.color .slide__flower{
   fill: #DE5D37;
 }
 
-/* ============================ MEDIA ============================ */
+/* ================= MEDIA ================ */
 
 @media (max-width: 768px) {
 
-/* ----------- Hero OKKKK----------- */
+/* ----------- Hero ----------- */
 
 .hero{
   margin-top: 10rem;
-  margin-bottom: 10rem; }
+  margin-bottom: 3.5rem; }
 
 .hero__box {
-  width: 85%;
-  margin-left: 7.5%; }
+  width: 80%;
+  margin-left: 10%; }
 
 .hero__box h1 {
-  line-height: 5.5rem; }
+  line-height: 5.25rem; }
 
 .hero__box h4 {
   width: 80%; }
@@ -434,18 +442,25 @@ body.color .slide__flower{
   display: none; }
 
 /*----------- Reel ----------- */
-.reel__box{
-  height: auto;
-  width: auto;
-  margin-left: 10%;
-  margin-right: 10%; }
 
-/* ----------- Holistic OKKKK----------- */
+.reel{
+  display: none; }
+
+/*----------- Reel Mobile ----------- */
+
+.reelmobile{
+  display: block; }
+
+  .reelmobile__box{
+      position: relative;  }
+  
+      .reelmobile__box video{
+          border-radius: 0.5rem; }
+
+/* ----------- Holistic ----------- */
 
 .holistic{
-  width: 100%;
-  height: auto;
-  margin: 10rem 0; }
+  margin: 5rem 0; }
 
 .holistic__box{
   width: 80%;
@@ -458,14 +473,14 @@ body.color .slide__flower{
   margin-top: 3.5rem; }
   
 .holistic__values p{
-  padding: 0.4rem 1.5rem 0.6rem 1.5rem;
+  padding: 0.4rem 0.75rem 0.6rem 1.5rem;
   margin: 0 1.5rem 1rem 0; }
 
-/* ----------- Case studies OKKK----------- */
+/* ---------- Case studies ----------- */
 .caseStudy{
   width: 100%;
   height: auto;
-  margin-top: 10rem; }
+  margin-top: 5rem; }
 
   .caseStudy h3{
     margin-left: 10%; }
@@ -473,16 +488,16 @@ body.color .slide__flower{
 .caseStudy__gallery{
   width: 100%;
   height: auto;
-  margin-top: 3.5rem; 
-  margin-bottom: 10rem;}
+  margin-top: 0rem; 
+  margin-bottom: 4rem;}
 
 .gallery__card .img__container img {
   width: 30rem; }
   
-/* ----------- A Nice philosophy OKKK----------- */
+/* --------- A Nice philosophy ----------- */
 .philosophy{
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
+  margin-top: 4rem;
+  margin-bottom: 6rem; }
 
 .philosophy__box{
   width: 80%;
@@ -509,7 +524,7 @@ body.color .slide__flower{
       justify-self: center;
       align-self: flex-end; }
     
-/* ----------- Slide in text ----------- */
+/* -------- Slide in text ----------- */
 
 .scrolling-text {
   transform: translateX(-140px); }
@@ -526,7 +541,11 @@ body.color .slide__flower{
 .slide__flower{
   margin: 0 0.5rem; }
 
-/* ----------- Messy gallery ----------- */
+/* --------- Messy gallery --------- */
+
+.messyGallery {
+  margin-top: 6rem;
+  margin-bottom: 5rem; }
 
 .messy__gallery--container {
   display: grid;
@@ -576,21 +595,19 @@ body.color .slide__flower{
   .messy__gallery--button {
     margin-top: 6.5rem; }
 
-/* ----------- Quote OKKKK----------- */
+/* ----------- Quote----------- */
 
 .quote{
-  width: 100%;
-  height: auto;
-  margin: 10rem 0; }
+  margin: 5rem 0; }
 
 .index__quote {
   width: 80%;
   margin-left: 10%;
-  line-height: 5rem; }
+  line-height: 4.5rem; }
 
-/* ----------- Instagram gallery ----------- */
+/* -------- Instagram gallery ----------- */
 .instagram__gallery {
-  margin-top: 10rem;
+  margin-top: 5rem;
   width: 100%; }
 
 .instagram__title{
@@ -601,26 +618,38 @@ body.color .slide__flower{
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-/* ----------- Hero OKKKK----------- */
+/* ----------- Hero ----------- */
 
 .hero__box {
   width: 80%;
   margin-left: 10%; }
 
 .hero__box h1 {
-  line-height: 8.5rem; }
+  line-height: 8rem; }
 
 .hero__box h4 {
   width: 80%; }
 
 /*----------- Reel ----------- */
-.reel__box{
-  height: auto;
-  width: auto;
-  margin-left: 10%;
-  margin-right: 10%; }
 
-/* ----------- Holistic OKKKK----------- */
+  .reel{
+    display: none; }
+
+/*----------- Reel Mobile ----------- */
+
+.reelmobile{
+    display: block; }
+
+    .reelmobile__box{
+        position: relative;  }
+    
+        .reelmobile__box video{
+            border-radius: 0.5rem; }
+
+/* ----------- Holistic ----------- */
+
+.holistic{
+  margin: 8rem 0; }
 
 .holistic__box{
   width: 80%;
@@ -632,15 +661,26 @@ body.color .slide__flower{
   width: 100%;
   margin-top: 3.5rem; }
   
-/* ----------- Case studies OKKK----------- */
+/* ----------- Case studies ----------- */
 
-.caseStudy h3{
-  margin-left: 10%; }
+.caseStudy{
+  margin-top: 8rem; }
+
+  .caseStudy h3{
+    margin-left: 10%; }
+
+.caseStudy__gallery{
+  margin-top: 0.5rem; 
+  margin-bottom: 6rem;}
 
 .gallery__card .img__container img {
   width: 38rem; }
   
-/* ----------- A Nice philosophy OKKK----------- */
+/* ------- A Nice philosophy ---------- */
+
+.philosophy{
+  margin-top: 6rem;
+  margin-bottom: 8rem; }
 
 .philosophy__box{
   height: auto;
@@ -672,6 +712,10 @@ body.color .slide__flower{
 
 /* ----------- Messy gallery ----------- */
 
+.messyGallery {
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
 .messy__gallery--container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -679,62 +723,90 @@ body.color .slide__flower{
   gap: 0px 0px;
   grid-template-areas:
     "one two four five"
-    "one three . five";
-}
+    "one three . five"; }
 
 .messy__img--container {
-  width: 150%;
-}
+  width: 150%; }
 
 /* oceans */
 .img1 {
   grid-area: one;
   margin: auto auto auto 20%;
-  z-index: 1;
-}
+  z-index: 1;   }
 
 /* girl */
 .img2 {
   grid-area: two;
   margin: auto 30% -10% auto;
-  z-index: 1;
-}
+  z-index: 1;  }
 
 /* Van Gogh */
 .img3 {
   grid-area: three;
   margin: auto auto -10% 30%;
-  z-index: 2;
-}
+  z-index: 2;  }
 
 /* pottery */
 .img4 {
   grid-area: four;
   margin: auto 30% -10% auto;
-  z-index: 3;
-}
+  z-index: 3;  }
 
 /* typographic */
 .img5 {
   grid-area: five;
   margin: auto auto auto -75%;
-  z-index: 1;
-}
+  z-index: 1;  }
 
-/* ----------- Quote OKKKK----------- */
+/* ----------- Quote ----------- */
+
 .quote{
-  width: 100%;
-  height: auto;
-  margin: 10rem 0; }
+  margin: 8rem 0; }
 
 .index__quote {
   width: 80%;
   margin-left: 10%;
   line-height: 7.5rem; }
+}
 
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+/* ----------- A Nice philosophy OKKK----------- */
+
+.philosophy__box{
+  height: auto;
+  width: 75%;
+  margin-left: 12.5%;
+  display: grid; 
+  grid-template-columns: auto;
+  grid-template-rows: min-content min-content;
+  row-gap: 3.5rem; }
+
+.philosophy__title{
+  height: auto;
+  width: 100%; }
+
+  .philosophy h5{
+    width: 100%;
+    min-width: 100%; }
+
+.philosophy__svg{
+  height: auto;
+  width: 100%; 
+  max-width: 500px;
+  justify-self: center; }
 }
 
 @media (min-width: 1600px) {
+
+  .lightwidget-widget{
+    margin-left: 12.5%;
+    width: 75% !important;  }
+
+  .messy__gallery--container {
+    width: 75%;
+    margin-left: 12.5%; }
 
   .reel, .hero, .holistic, .caseStudy, .philosophy, .messyGallery, .quote, .instagram__gallery, .footer {
       width: 80%;

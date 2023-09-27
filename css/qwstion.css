@@ -8,7 +8,6 @@ a {
 .text__space{
     height: 2rem;  }
 
-
  /* ------------ case study fonts -------------- */
 
 .csH2 {
@@ -47,28 +46,28 @@ a {
     line-height: 1.55rem; }
 
 .csH5 {
-    font-family: Montserrat;
+    font-family: 'Montserrat 700';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1rem; }
 
 .csPgMon{
-    font-family: Montserrat;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2rem; }
 
 .csPgMonSm{
-    font-family: Montserrat;
+    font-family: 'Montserrat 500';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem; }
 
 .csInd {
-    font-family: Montserrat;
+    font-family: 'Montserrat 600';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -80,7 +79,7 @@ a {
     width: 100%;
     height: 33rem;
     margin-top: 4rem;
-    background-image: url(https://ik.imagekit.io/nicecreativestudio/qwhero_iJc4HC5Hu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648574826810);
+    background-image: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/qwstion-casestudy-cover-nicestudio_1hRCyEETW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649348225770);
     background-position: center;
     background-size: cover; }
 
@@ -322,6 +321,12 @@ a {
         margin-top: 1rem;
         margin-bottom: 2rem; }
 
+.digital__video {
+    display: block;  }   
+
+.digital__videomobile {
+    display: none;  }
+
 /* -------------Graphics-------------- */
 
 .graphics{
@@ -334,8 +339,7 @@ a {
     height: auto;
     width: auto;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10rem; }  
+    margin-right: 5%; }  
 
     .graphics__screen img{
         height: auto;
@@ -353,7 +357,11 @@ a {
     width: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "txt img";
     margin-left: 12.5%;  }
+
+.backend__txt{
+    grid-area: txt;}
 
     .backend__txt svg{
         fill:  #FEFBF3;
@@ -374,6 +382,7 @@ a {
     margin-bottom: 3rem; } 
 
 .backend__img{
+    grid-area: img;
     height: auto;
     max-height: 800px;
     max-width: 475px;
@@ -392,7 +401,6 @@ a {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 0rem;
     margin-top: 11rem; }
 
 .grid__img {
@@ -433,7 +441,7 @@ a {
     height: 100%;  }
 
     .grid__txt p{
-        font-family: Montserrat;
+        font-family: 'Montserrat 600';
         font-style: normal;
         font-weight: 600;
         font-size: 1rem;
@@ -454,7 +462,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/bag-grid-qwstion-case-study-nice-studio_h430MPUS_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139804702) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/bag-grid-qwstion-case-study-nice-studio_lVpwIV69q.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649350384536) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -471,7 +479,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/circular-economy-qwstion-case-study-nice-studio_nmUdjtZZa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572251543) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/circular-economy-qwstion-case-study-nice-studio_zwBh2Mbmb.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649350388340) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -488,7 +496,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/collaborations-highlight-qwstion-case-study-nice-studio_9LdoU-pYL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572080631) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/collaborations-highlight-qwstion-case-study-nice-studio_hLxUmn9SF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649350392174) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -505,7 +513,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/the-art-of-upcycling-qwstion-case-study-nice-studio.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648572532340) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/the-art-of-upcycling-qwstion-case-study-nice-studio_JmlxTzUWY.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649350390471) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -522,7 +530,7 @@ a {
     height: 100%; 
     margin:0;
     border-radius: 0.5rem;
-    background: url(https://ik.imagekit.io/nicecreativestudio/bananatex-qwstion-case-study-nice-studio_2c4wPqtTd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648139804777) no-repeat; 
+    background: url(https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/bananatex-qwstion-case-study-nice-studio_oTmlUIivY.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649350381632) no-repeat; 
     background-size: 100%;
     background-position:center center;
     -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -597,7 +605,7 @@ a {
         height: 2rem;
         padding-top: 0.25rem; }
 
-/* ============================ LIGHT MODE ============================ */
+/* ================ LIGHT MODE =================== */
 
 body.color a {
     color: #202020; }
@@ -617,7 +625,7 @@ body.color .backend__arrowL {
 body.color .backend__arrowR {
     fill: #202020;  }
 
-/* ============================ MEDIA ============================ */
+/* ================= MEDIA ================== */
 
 
 @media (max-width: 768px) { 
@@ -634,7 +642,7 @@ body.color .backend__arrowR {
  /* ------------central text -------------- */
 
 .centraltxt{ 
-    margin-bottom: 10rem; }   
+    margin-bottom: 5rem; }   
 
 .centraltxt__sub{
     margin-left: 10%; }
@@ -650,12 +658,12 @@ body.color .backend__arrowR {
     width: 80%;
     height: auto;
     margin-left: 10%;
-    margin-top: 6rem; }
+    margin-top: 3rem; }
 
 .centraltxt__mission{
     height: auto;
     width: 95%;
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
 
 .centraltxt__services {
     width: 80%;
@@ -664,8 +672,8 @@ body.color .backend__arrowR {
 /* --------Setting the identity-------- */
 
 .elements{  
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .elements__title{
     width: auto;
@@ -679,7 +687,7 @@ body.color .backend__arrowR {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin-left: 10%;
-    margin-top: 4rem; }
+    margin-top: 3rem; }
 
 .elements__txt{
     width: auto;  }
@@ -687,8 +695,8 @@ body.color .backend__arrowR {
 /* ------------multimedia -------------- */
 
 .multimedia{
-    margin-top: 8rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .multimedia__boxexamp{
     height: auto;
@@ -726,13 +734,13 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 2rem;
     margin-left: 10%;
-    margin-top: 5rem;  }   
+    margin-top: 3rem;  }   
 
 /* ---------Going Digital--------- */
 
 .digital{
-    margin-top: 10rem;
-    margin-bottom: 8rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .digital__title {
     width: auto;
@@ -746,11 +754,11 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 0rem;
     margin-left: 10%;
-    margin-top: 4rem;  }
+    margin-top: 3rem;  }
 
 .digital__txt{
     width: 100%; 
-    margin-bottom: 3.5rem;  }
+    margin-bottom: 3rem;  }
         
 .digital__boxexamp{
     height: auto;
@@ -773,17 +781,23 @@ body.color .backend__arrowR {
         height: auto;
         width: 100%;  }
 
+.digital__video {
+    display: none; }
+
+.digital__videomobile {
+    display: block;  }
+        
+
 /* -------------Graphics-------------- */
 
 .graphics{
-    margin-top: 10rem;
-    margin-bottom: 10rem; }
+    margin-top: 5rem;
+    margin-bottom: 5rem; }
 
 .graphics__screen{
     height: auto;
     width: 80%;;
     margin-left: 10%;
-    margin-top: 10rem;
     background-color: #3458C7; }  
 
 /* ------------backend -------------- */
@@ -798,6 +812,7 @@ body.color .backend__arrowR {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    grid-template-areas: "img" "txt";
     margin-left: 10%;  }
 
     .backend__txt h3{
@@ -808,7 +823,7 @@ body.color .backend__arrowR {
         margin-top: 3rem;  }
 
 .backend__img{
-    margin-top: 4rem;
+    margin-bottom: 3rem;
     height: auto;
     max-height: 500px;
     max-width: 100%;
@@ -827,9 +842,7 @@ body.color .backend__arrowR {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 8rem;
-    padding-bottom: 5rem;
-    margin-top: 8rem; }
+    margin-top: 5rem; }
 
 .grid__img {
     display: grid;
@@ -874,7 +887,7 @@ body.color .backend__arrowR {
  /* ------------central text -------------- */
 
 .centraltxt{ 
-    margin-bottom: 11rem; }   
+    margin-bottom: 8rem; }   
 
 .centraltxt__sub{
     margin-left: 10%;}
@@ -890,12 +903,12 @@ body.color .backend__arrowR {
     width: 80%;
     height: auto;
     margin-left: 10%;
-    margin-top: 6rem; }
+    margin-top: 3.5rem; }
 
 .centraltxt__mission{
     height: auto;
     width: auto;
-    margin-bottom: 4rem; }
+    margin-bottom: 3.5rem; }
 
 .centraltxt__services {
     width: 23rem;
@@ -904,7 +917,7 @@ body.color .backend__arrowR {
 /* --------Setting the identity-------- */
 
 .elements{  
-    margin-top: 11rem;
+    margin-top: 8rem;
     margin-bottom: 8rem; }
 
 .elements__title{
@@ -919,7 +932,7 @@ body.color .backend__arrowR {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin-left: 10%;
-    margin-top: 4rem; }
+    margin-top: 3.5rem; }
 
 .elements__txt{
     width: auto;  }
@@ -937,7 +950,7 @@ body.color .backend__arrowR {
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr;
         margin-left: 10%;
-        row-gap: 1.5rem; 
+        row-gap: 0rem; 
         text-align: center; }
     
     .multimedia__boxlogo{
@@ -966,7 +979,7 @@ body.color .backend__arrowR {
         grid-template-rows: auto auto;
         gap: 2rem;
         margin-left: 10%;
-        margin-top: 5rem;  }   
+        margin-top: 3.5rem;  }   
 
 /* ---------Going Digital--------- */
 
@@ -986,7 +999,8 @@ body.color .backend__arrowR {
     grid-template-rows: auto auto;
     gap: 0rem;
     margin-left: 10%;
-    margin-top: 4rem;  }
+    margin-top: 3.5rem; 
+    margin-bottom: 3.5rem;   }
 
 .digital__txt{
     width: 100%; 
@@ -1005,13 +1019,22 @@ body.color .backend__arrowR {
     text-align: center; }
 
     .digital__boximg img{
-        height: 90%;
+        height: 95%;
         width: 100%;
         object-fit: cover; }
 
     .digital__boximg video{
         height: auto;
         width: 100%;  }
+
+        .digital__boximg p{
+            margin-bottom: 0rem; }
+
+.digital__video {
+    display: none; }
+
+.digital__videomobile {
+    display: block;  }
 
 /* -------------Graphics-------------- */
 
@@ -1022,29 +1045,23 @@ body.color .backend__arrowR {
 .graphics__screen{
     height: auto;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 10rem;
-    background-color: #3458C7; }  
-
-/* ------------legend -------------- */
-
-.legendtxt__box {
-    width: 80%;
-    margin-left: 10%;}
+    margin-left: 10%; }  
 
 /* ------------backend -------------- */
 
 .backend{
     height: auto;
+    margin-top: 8rem;
     width: 100%; }
 
 .backend__box{
     height: auto;
-    width: 75%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    margin-left: 12.5%;  }
+    grid-template-areas: "img" "txt";
+    margin-left: 10%;  }
 
     .backend__txt h2{
         width: 80%;  }
@@ -1054,7 +1071,7 @@ body.color .backend__arrowR {
         margin-top: 3rem;  }
 
 .backend__img{
-    margin-top: 4rem;
+    margin-bottom: 3.5rem;
     height: auto;
     max-height: 550px;
     max-width: 100%;
@@ -1072,8 +1089,6 @@ body.color .backend__arrowR {
     height: auto;    
     width: 100%;
     margin-left: 0;
-    padding-top: 8rem;
-    padding-bottom: 0rem;
     margin-top: 8rem; }
 
 .grid__img {
@@ -1089,7 +1104,7 @@ body.color .backend__arrowR {
     margin-left: 10%;  }
 
     .grid__txt p{
-        bottom: 5rem; }
+        bottom: 3.5rem; }
 
     .grid__txtbox svg{
         bottom: 40%;
