@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/globalStyles.css">
     <link rel="stylesheet" type="text/css" href="./css/work.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">  
     <link rel="icon" type="apple-touch-icon" href="./assets/icons/work.ico">
     <link rel="icon" type="image/x-icon" href="./assets/icons/work.ico">
-    <title>Our Work | Nice Studio</title>
+    <title>Nice | Our Work</title>
     <meta name="description" content="We are a creative studio committed to create beautiful products that engage with the right audiences through an outstanding user experience."> 
     <meta name="keywords" content="digital product, creative studio, website design, product design, brand awareness, creative portfolio, design case study">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,7 +23,7 @@
 </head>
 <body>
     <header>
-        <!---------------- Navbar ---------------->
+        <!---- Navbar ---->
         <nav id="navbar">
             <a href="./index.html" class="logo">
                 <svg width="65" height="30" viewBox="0 0 59 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,9 +34,9 @@
                 <li><a href="./about.html" class="aLink aLink--under">About</a></li>
                 <li><a href="./process.html" class="aLink aLink--under">Process</a></li>
                 <li><a href="./work.html" class="aLink aLink--under">Work</a></li>
-                <li><a href="./contact.html" class="aLink aLink--under">Contact</a></li>
+                <li><a href="https://nicecreativestudio.com/contact.php" class="aLink aLink--under">Contact</a></li>
             </ul>
-            <img id="switch" class="colorSwitch" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png" alt="">
+            <img id="switch" class="colorSwitch" src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/rainbow-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368706757" alt="website light & dark mode switch on nice studio website" loading="eager">
             <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
                 <div class="bar1"></div>
                 <div class="bar3"></div>
@@ -67,47 +64,38 @@
                             <path d="M34 17C23.614 17 17 23.6103 17 34C17 23.6103 10.3897 17 0 17C10.3897 17 17 10.3897 17 0C17.0037 10.3897 23.614 17 34 17Z" fill=""/>
                         </svg>
                     </li>
-                    <li><a href="./contact.html" class="Bd">Contact</a></li>
+                    <li><a href="https://nicecreativestudio.com/contact.php" class="Bd">Contact</a></li>
                     <a href="mailto:hello@nicecreativestuido.com" class="mobile__menu--mail Rg">hello@nicecreativestudio.com</a>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-    <!------------------- Intro ------------------->
+    <!---- Intro ---->
         <section class="workIntro">
             <div class="work__intro">
                 <h1 class="fonXl">The <span class="MeIt yellow">stories<br></span> we are <span class="Bd pink">proud of</span></h1>
-                <h3 class="fonPar">Here’s a showcase of our recent work, stories that celebrate the success of brands that we have worked with and projects we are proud to share.</h3>
-            </div>
-        </section>
-        <section class="reelmobile">
-            <div class=" c-video multimedia__boxvid ">
-                <video class="video" muted width="100%" height="auto" style="left: 5%" src="https://ik.imagekit.io/nicecreativestudio/nicestudio-reel-2022.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649105899108" poster="https://ik.imagekit.io/nicecreativestudio/nuet-case-study-video-preview-SQsjh3YD2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648140274725"></video>
-                <div class="multimedia__controls"> 
-                    <button class="multimedia__btn" id="play" style="background: transparent; border: none">
-                        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="34.9992" cy="35.2394" r="34.6222" fill="#FEFBF3"/>
-                            <path d="M30.5951 28.5622L40.5984 35.8601L30.5951 43.1579V28.5622ZM26.7988 20.6562V51.0639L47.6785 35.8601L26.7988 20.6562Z" fill="#282828"/>
-                            </svg>
-                    </button>
-                    <button class="multimedia__btn" id="pause" style="display:none; background: transparent"></button>
-                </div>
+                <h3 class="fonPar">Here's a showcase of our recent work, stories that celebrate the success of brands that we have worked with and projects we are proud to share.</h3>
             </div>
         </section>
         <section class="reel">
             <div class="reel__box">
-                <video class="video" muted loop autoplay width="100%" height="auto" style="left: 5%" src="https://ik.imagekit.io/nicecreativestudio/nicestudio-reel-2022.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649105899108" ></video>
+                <video preload="auto" controls controlslist="nodownload" width="100%" height="auto" style="left: 5%" poster="https://ik.imagekit.io/nicecreativestudio/covervideo_N93-IsXqi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1649164295920" src="https://ik.imagekit.io/nicecreativestudio/nice_studio_reel.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649335299406" ></video>
             </div>
         </section>
-    <!------------------- List Case studies ------------------->
+        <section class="reelmobile">
+            <div class="reelmobile__box">
+                <video preload="none" controls controlslist="nodownload" width="80%" height="auto" style="margin-left: 10%" poster="https://ik.imagekit.io/nicecreativestudio/covervideo_N93-IsXqi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1649164295920" src="https://ik.imagekit.io/nicecreativestudio/reel2mb_vrjWIgNxH.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1649194846944"></video>
+            </div>
+        </section>
+    <!---- List Case studies ---->
         <section class="workAccordion">
             <div class="work__accordionbox">
                 <h3 class="fonH3">Some of our <span class="MeIt yellow">Case Studies</span></h3>
                 <a href="./breathology.html" target="_blank">
                     <button class="work__accordion">
                         <h5 class="fonH5">No. 1</h5>
-                        <h2 class="fonH4">An <span class="MeIt blue">app</span> for <span class="Un pink">breathing habits</span> that will <span class="Bd orange">change your life</span>     <span>
+                        <h4 class="fonH4">An <span class="MeIt blue">app</span> for <span class="Un pink">breathing habits</span> that will <span class="Bd orange">change your life</span>     <span>
                             <svg class="work__accordion--arrow" id="accordion--arrow" width="48" height="48" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="20" cy="20" r="18.9831" stroke="#DE5D37" stroke-width="2.0339"/>
                                 <mask id="path-2-inside-1_719_700" fill="white">
@@ -121,13 +109,13 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8812 24.673C17.7305 24.673 21.6617 20.7419 21.6617 15.8926L24.2876 15.8926C24.2876 22.1922 19.1808 27.299 12.8812 27.299L12.8812 24.673Z" fill=""/>
                                 <path d="M21.6617 15.8926L21.6617 8.68496L14.4541 8.68496L14.4541 15.8926L21.6617 15.8926ZM12.8812 24.673L12.8812 17.4654L5.6736 17.4654L5.6736 24.673L12.8812 24.673ZM24.2876 15.8926L31.4952 15.8926L31.4952 8.68496L24.2876 8.68496L24.2876 15.8926ZM12.8812 27.299L5.6736 27.299L5.6736 34.5066L12.8812 34.5066L12.8812 27.299ZM14.4541 15.8926C14.4541 16.7612 13.7499 17.4654 12.8812 17.4654L12.8812 31.8806C21.7112 31.8806 28.8693 24.7225 28.8693 15.8926L14.4541 15.8926ZM24.2876 8.68496L21.6617 8.68496L21.6617 23.1002L24.2876 23.1002L24.2876 8.68496ZM12.8812 34.5066C23.1614 34.5066 31.4952 26.1728 31.4952 15.8926L17.08 15.8926C17.08 18.2115 15.2001 20.0914 12.8812 20.0914L12.8812 34.5066ZM5.6736 24.673L5.6736 27.299L20.0888 27.299L20.0888 24.673L5.6736 24.673Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
                             </svg>
-                        </span></h2>
+                        </span></h4>
                     </button>
                 </a>
                 <a href="./nuet.html" target="_blank">
                     <button class="work__accordion">
                         <h5 class="fonH5">No. 2</h5>
-                        <h2 class="fonH4">Sustainable <span class="Bd blue">Branding</span> for <span class="Un pink">Natural Skincare</span><span>
+                        <h4 class="fonH4">Sustainable <span class="Bd blue">Branding</span> for <span class="Un pink">Natural Skincare</span><span>
                             <svg class="work__accordion--arrow" id="accordion--arrow" width="48" height="48" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="20" cy="20" r="18.9831" stroke="#DE5D37" stroke-width="2.0339"/>
                                 <mask id="path-2-inside-1_719_700" fill="white">
@@ -141,13 +129,13 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8812 24.673C17.7305 24.673 21.6617 20.7419 21.6617 15.8926L24.2876 15.8926C24.2876 22.1922 19.1808 27.299 12.8812 27.299L12.8812 24.673Z" fill=""/>
                                 <path d="M21.6617 15.8926L21.6617 8.68496L14.4541 8.68496L14.4541 15.8926L21.6617 15.8926ZM12.8812 24.673L12.8812 17.4654L5.6736 17.4654L5.6736 24.673L12.8812 24.673ZM24.2876 15.8926L31.4952 15.8926L31.4952 8.68496L24.2876 8.68496L24.2876 15.8926ZM12.8812 27.299L5.6736 27.299L5.6736 34.5066L12.8812 34.5066L12.8812 27.299ZM14.4541 15.8926C14.4541 16.7612 13.7499 17.4654 12.8812 17.4654L12.8812 31.8806C21.7112 31.8806 28.8693 24.7225 28.8693 15.8926L14.4541 15.8926ZM24.2876 8.68496L21.6617 8.68496L21.6617 23.1002L24.2876 23.1002L24.2876 8.68496ZM12.8812 34.5066C23.1614 34.5066 31.4952 26.1728 31.4952 15.8926L17.08 15.8926C17.08 18.2115 15.2001 20.0914 12.8812 20.0914L12.8812 34.5066ZM5.6736 24.673L5.6736 27.299L20.0888 27.299L20.0888 24.673L5.6736 24.673Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
                             </svg>
-                        </span></h2>
+                        </span></h4>
                     </button>
                 </a>
                 <a href="./qwstion.html" target="_blank">
                     <button class="work__accordion">
                         <h5 class="fonH5">No. 3</h5>
-                        <h2 class="fonH4"><span class="Bd blue">Re-designing</span> an <span class="pink Un">eco-store</span> with the <span class="Bd orange">users in mind</span>
+                        <h4 class="fonH4"><span class="Bd blue">Re-designing</span> an <span class="pink Un">eco-store</span> with the <span class="Bd orange">users in mind</span>
                             <svg class="work__accordion--arrow" id="accordion--arrow" width="48" height="48" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="20" cy="20" r="18.9831" stroke="#DE5D37" stroke-width="2.0339"/>
                                 <mask id="path-2-inside-1_719_700" fill="white">
@@ -161,12 +149,12 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8812 24.673C17.7305 24.673 21.6617 20.7419 21.6617 15.8926L24.2876 15.8926C24.2876 22.1922 19.1808 27.299 12.8812 27.299L12.8812 24.673Z" fill=""/>
                                 <path d="M21.6617 15.8926L21.6617 8.68496L14.4541 8.68496L14.4541 15.8926L21.6617 15.8926ZM12.8812 24.673L12.8812 17.4654L5.6736 17.4654L5.6736 24.673L12.8812 24.673ZM24.2876 15.8926L31.4952 15.8926L31.4952 8.68496L24.2876 8.68496L24.2876 15.8926ZM12.8812 27.299L5.6736 27.299L5.6736 34.5066L12.8812 34.5066L12.8812 27.299ZM14.4541 15.8926C14.4541 16.7612 13.7499 17.4654 12.8812 17.4654L12.8812 31.8806C21.7112 31.8806 28.8693 24.7225 28.8693 15.8926L14.4541 15.8926ZM24.2876 8.68496L21.6617 8.68496L21.6617 23.1002L24.2876 23.1002L24.2876 8.68496ZM12.8812 34.5066C23.1614 34.5066 31.4952 26.1728 31.4952 15.8926L17.08 15.8926C17.08 18.2115 15.2001 20.0914 12.8812 20.0914L12.8812 34.5066ZM5.6736 24.673L5.6736 27.299L20.0888 27.299L20.0888 24.673L5.6736 24.673Z" fill="#DE5D37" mask="url(#path-4-inside-2_719_700)"/>
                             </svg>
-                        </span></h2>
+                        </span></h4>
                     </button>
                 </a>
             </div>
         </section>
-    <!------------------- Quote ------------------->
+    <!--- Quote ---->
         <section class="quote">
             <h2 class="work__quote fonH2">Want to know <span class="Bd blue">how</span> we do it and <span class="BdIt pink">what</span> we do? Check <span class="yellow Un">our process</span><span>
                 <a href="./work.html">
@@ -174,7 +162,7 @@
                 </a>
             </span></h2>
         </section>
-    <!------------------- Instagram gallery ------------------->
+    <!---- Instagram gallery ---->
         <section class="instagram__gallery">
             <div class="instagram__title">
                 <h3 class="fonH3">We also <span class="MeIt pink">like</span> to <span class="MeIt blue">have fun</span></h3>
@@ -185,7 +173,7 @@
             <iframe src="https://cdn.lightwidget.com/widgets/7008dd282e17583fb526deb26952091c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>           
     </main>
-    <!--------------------- footer ---------------->
+    <!---- Footer ---->
     <footer class="footer">
         <div class="footer__box"> 
             <h2 class="footer__title fonH2">It would be <span class="MeIt orange">nice</span> to hear from you</h2>
@@ -217,17 +205,18 @@
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 59 59" style="enable-background:new 0 0 59 59" xml:space="preserve"><circle cx="29.5" cy="29.5" r="28" style="fill:none;stroke:'';stroke-width:3"/><path style="fill-rule:evenodd;clip-rule:evenodd;fill:'' " d="M42.3 30.7 29.7 17.9 16.9 30.4l2.4 2.5 8.6-8.4v16h3.6v-16l8.3 8.6z"/></svg>
                 </a>
                 <div class="footer__copy">
-                    <h5 class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
+                    <h5 translate="no" class="fonH5">NICE CREATIVE STUDIO - 2022</h5>
                 </div>
             </div>
         </div>
     </footer>
+    <section class="footer__bottom">
+        <p class="fonPar">Because the ones who are crazy enough to think they can <span class="Un">change the world </span> are the ones who do.</p>
+    </section>
     <!-- Scripts -->
     <script src="./assets/js/nav.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/colorMode.js"></script>
     <script src="./assets/js/slider.js"></script>
-    <script src="./assets/js/video.js"></script>
-
 </body>
 </html>
