@@ -7,10 +7,10 @@ btnSwitch.addEventListener('click', () => {
 	// Guardamos el modo en localstorage.
 	if(document.body.classList.contains('color')){
 		localStorage.setItem('color-mode', 'true');
-		document.getElementById("switch").src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/new-moon-face_1f31a.png";
+		document.getElementById("switch").src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/moon-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368696792";
 	} else {
 		localStorage.setItem('color-mode', 'false');
-		document.getElementById("switch").src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png";
+		document.getElementById("switch").src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/rainbow-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368706757";
 	}
 });
 
@@ -18,9 +18,9 @@ btnSwitch.addEventListener('click', () => {
 if(localStorage.getItem('color-mode') === 'true'){
 	document.body.classList.add('color');
 	btnSwitch.classList.add('active');
-	document.getElementById("switch").src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/new-moon-face_1f31a.png";
+	document.getElementById("switch").src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/moon-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368696792";
 } else {
 	document.body.classList.remove('color');
 	btnSwitch.classList.remove('active');
-	document.getElementById("switch").src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rainbow_1f308.png";
+	document.getElementById("switch").src="https://ik.imagekit.io/nicecreativestudio/IMGs_finales_Webp/rainbow-switch-dark_white-website-mode.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1649368706757";
 }
