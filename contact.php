@@ -90,7 +90,85 @@
         </nav>
     </header>
     <main>
-    <!---- Form grid ---->
+    <section class="contact">
+        <form class="contact__box"  method="POST">
+            <div class="contact__txtbox">
+                <div class="contact__title">
+                    <h1 class="fonH1">Drop us <span class="BdIt orange">a line</span></h1>
+                    <h4 class="fonPar">For new project inquiries, please fill out the form below. <br> We’re
+                        currently booking projects for April 2022 and on.</h4>
+                </div>
+                <div class="contact__form">
+                    <div class="name">
+                        <label for="name">Name <span class="required">*</span></label>
+                        <br>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <br>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="textarea">
+                        <label for="description">Tell us a bit about your project <span class="required">*</span></label>
+                        <br>
+                        <textarea name="description" required></textarea>
+                    </div>
+                    <div class="hear">
+                        <label for="hear">How did you hear about us?</label>
+                        <br>
+                        <input type="text" name="hear">
+                    </div>
+                    <div class="btn">
+                        <button type="submit" value="submit" id="submit "name="SubmitButton" class="btn__active submit__btn" onclick="myFunction()">
+                            <a class="fonH4">
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.3825 3.88326H0V0H20.2658V20.2658H16.3825V3.88326Z" fill="" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M-0.000202745 16.3926C7.15253 16.3926 12.951 10.5941 12.951 3.44141L16.8242 3.44141C16.8242 12.7333 9.29167 20.2658 -0.000202914 20.2658L-0.000202745 16.3926Z"
+                                        fill="" />
+                                </svg>
+                                Send
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="shapes">
+                <div class="shapes__svgbox">
+                    <svg class="shape__pink" width="45%" height="45%" viewBox="0 0 151 151" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M113.007 144.478L116.254 108.597L150.702 98.0218L127.628 70.3435L144.513 38.5178L108.632 35.2708L98.057 0.823268L70.3822 23.9031L38.5565 7.01854L35.3095 42.8993L0.86197 53.4745L23.9383 81.1428L7.05372 112.969L42.9344 116.216L53.5097 150.663L81.1815 127.593L113.007 144.478Z"
+                            fill=" " />
+                    </svg>
+                    <svg class="shape__yellow" width="50%" height="50%" viewBox="0 0 182 182" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M108.043 181.766C97.7144 126.273 126.456 84.3598 181.969 74.0271C126.456 84.3598 84.5626 55.6143 74.2299 0.101057C84.5626 55.6143 55.8171 97.5078 0.303828 107.841C55.8208 97.5275 97.7144 126.273 108.043 181.766Z"
+                            fill=" " />
+                    </svg>
+                    <svg class="shape__blue" width="45%" height="45%" viewBox="0 0 148 148" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.9504 17.9658L121.545 130.515" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                        <path d="M61.4012 1.85547L87.0493 146.624" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                        <path d="M99.3479 5.13217L49.1743 143.33" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                        <path d="M130.518 26.9378L17.9602 121.532" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                        <path d="M146.639 61.4147L1.86267 87.062" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                        <path d="M143.345 99.323L5.14758 49.1494" stroke=" " stroke-width="14.9612"
+                            stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+        </form>
+    </section>
         <section class="contact">
             <form class="contact__box"  method="POST">
                 <div class="contact__txtbox">
@@ -203,7 +281,7 @@
                 </div>
             </form>
         </section>
-    <!---- Central txt ---->
+        <!---- Central txt ---->
         <section class="centraltxt">
             <div class="centraltxt__box">
                 <h2 class="fonH2">What defines us as <span class="Bd blue">humans</span> are the <span
@@ -247,7 +325,7 @@
             </div>
         </section>
     <!---- Team gallery ---->
-    <section class="teamGallery">
+        <section class="teamGallery">
                 <div class="items">
                     <!-- PHOTO 1 -->
                     <div class="item">

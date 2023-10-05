@@ -107,7 +107,6 @@ input:-webkit-autofill {
     grid-template-areas:
         "name email"
         "textarea textarea"
-        "launch budget"
         "hear hear"
         "btn btn";
 }
